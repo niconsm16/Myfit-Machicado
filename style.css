@@ -125,12 +125,13 @@ header .direccion details summary :hover {
             list-style-type: none; 
         }
         header .direccion details[open] summary ~ * {
-            animation: mapa .2s;
-        }
-        @keyframes mapa {
-            0%    {opacity: 0}
-            100%  {opacity: 1}
-        }
+            animation: mapa .5s;
+            -webkit-animation: mapa .5s;
+}
+            @keyframes mapa {
+                0%    {opacity: 0}
+                100%  {opacity: 1}
+            }
 
         header .direccion details .mapa {
             position: absolute;
@@ -745,6 +746,7 @@ footer {
             fill: black;
             text-decoration-line: none;
             padding: 0.1rem 0;
+            margin-left: 0.2rem;
         }
         header #redes a:link:hover, 
         header #redes a:link:hover svg, 
@@ -754,7 +756,7 @@ footer {
         }
 
     header .logo img{
-        max-height: 3rem;
+        max-height: 3.5rem;
     }
 
     header .direccion {
@@ -1119,11 +1121,10 @@ input, textarea {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url('images/fondo1.jpg');
+        background-image: none;
         background-size: cover;
         background-position: 0 -14em;
-        background-color: rgba(0,0,0,0.75);
-        background-blend-mode: overlay;
+        background-color: rgba(0,0,0,1);
     }
         header #redes a svg,
         header #redes a:link,
@@ -1158,6 +1159,9 @@ input, textarea {
                 color: var(--verde);
             }
 
+            .logo img {
+                content:url("images/myfitlogo3.png");
+            }
 
     /* MAIN */
 
