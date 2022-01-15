@@ -541,6 +541,10 @@ main {
                     color: white;
                     padding: 1em 0;
                 }
+                .bio .links a svg,
+                .bio-b .links a svg {
+                    fill: var(--verde);
+                }
 
 /* PROYECTANDO FONDO OPACO MENU PROFES
 .panel-bio:hover::before {
