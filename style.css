@@ -276,7 +276,7 @@ main {
         height: 70vh;
         width: 100%;
         animation: promos-inicio 30s ease .1s infinite;
-        -webkit-animation: promos-inicio 15s ease .1s infinite;
+        -webkit-animation: promos-inicio 30s ease .1s infinite;
 }
             @keyframes promos-inicio {
                 0% {
