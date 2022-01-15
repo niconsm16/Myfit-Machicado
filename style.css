@@ -971,6 +971,7 @@ footer {
         font-family: var(--asap);
         font-size: 0.75em;
         text-align: center;
+        position: sticky;
     }
 }
 
@@ -1219,6 +1220,7 @@ input, textarea {
         font-family: var(--asap);
         font-size: 0.75em;
         text-align: center;
+        position: sticky;
     }
 
 }
