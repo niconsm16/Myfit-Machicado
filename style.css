@@ -964,7 +964,7 @@ footer {
     footer {
         background-color: black;
         padding-top: 2.063em;
-        padding-bottom: 2.063em;
+        padding-bottom: 3.063em;
         margin-left: 1.35em;
         margin-right: 1.35em;
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
@@ -1212,7 +1212,7 @@ input, textarea {
     footer {
         background-color: black;
         padding-top: 2.063em;
-        padding-bottom: 4.063em;
+        padding-bottom: 5.063em;
         margin-left: 1.35em;
         margin-right: 1.35em;
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
