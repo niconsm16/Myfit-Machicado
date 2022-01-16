@@ -865,6 +865,11 @@ footer {
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
     }
 
+    .arriba {
+        display: none;
+    }
+
+
     /* Seccion Inicio */
 
     main #inicio {
@@ -974,15 +979,12 @@ footer {
                 0% {
                     background-image: url('images/mobile/equipos.jpg');
                 }
-
                 33% {
                     background-image: url('images/mobile/equipos2.jpg');
                 }
-
                 67% {
                     background-image: url('images/mobile/equipos3.jpg');
                 }
-
                 100% {
                     background-image: url('images/mobile/equipos.jpg');
                 }
@@ -1187,32 +1189,25 @@ footer {
         color: black;
         margin: 0 100%;
     }
-
     1% {
         color: white;
     }
-
     95% {
         color: white;
         margin: 0 -150%;
     }
-
     97% {
         color: black;
         margin: 0 -150%;
-
     }
-
     97.1% {
         color: black;
         margin: 0 100%;
     }
-
     100% {
         color: black;
         margin: 0 100%;
     }
-
 }
 
     /* MAIN */
@@ -1222,6 +1217,10 @@ footer {
         margin-left: 1em;
         margin-right: 1em;
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
+    }
+
+    .arriba {
+        display: none;
     }
 
     /* Seccion Inicio */
