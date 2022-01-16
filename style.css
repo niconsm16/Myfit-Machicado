@@ -672,6 +672,7 @@ footer {
     font-family: var(--asap);
     font-size: 0.75em;
     text-align: center;
+    margin-top: -0.1em;
 }
 
     footer section {
