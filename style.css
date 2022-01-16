@@ -108,18 +108,20 @@ header .direccion {
 }
 
 header .direccion details summary :hover {
-    font-weight: bold;
+    color: black;
 }
 
     header .direccion details summary h3 {
-        color: black;
-        font-family: 'Amiko', sans-serif;
+        color: var(--gris2);
+        font-family: var(--asap);
         font-size: 0.9em;
+        text-align: end;
     }
     header .direccion details summary h4 {
-        color: black;
-        font-family: 'Amiko', sans-serif;
+        color: var(--gris2);
+        font-family: var(--asap);
         font-size: 0.62em;
+        text-align: end;
     }
         header .direccion details summary:first-of-type {
             list-style-type: none; 
@@ -1420,20 +1422,25 @@ input, textarea {
         }
 
             header .direccion details summary h3 {
-                color: white;
+                color: var(--gris1);
+                font-family: var(--asap);
+                text-align: end;
+                font-variant: small-caps;
             }
 
             header .direccion details summary h3:hover {
-                color: var(--verde);
+                color: white;
             }
 
             header .direccion details summary h4 {
-                color: white;
+                color: var(--gris1);
                 font-size: 0.6em;
+                font-family: var(--asap);
+                text-align: end;
             }
 
             header .direccion details summary h4:hover {
-                color: var(--verde);
+                color: white;
             }
 
             .logo img {
