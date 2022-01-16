@@ -511,6 +511,7 @@ main {
         border-radius: 8px;
         height: 18em;
         width: 100%;
+        object-fit: cover;
         
     }
     .bioder {
@@ -864,6 +865,42 @@ footer {
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
     }
 
+    /* Seccion Inicio */
+
+    main #inicio {
+        background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+    }
+
+        @keyframes promos-inicio {
+            0% {
+                background-image: url('images/mobile/Promo1.jpg');
+            }
+            23% {
+                background-image: url('images/mobile/Promo1.jpg');
+            }
+            25% {
+                background-image: url('images/mobile/promo2.jpg');
+            }
+            48% {
+                background-image: url('images/mobile/promo2.jpg');
+            }
+            50% {
+                background-image: url('images/mobile/promo3.jpg');
+            }
+            73% {
+                background-image: url('images/mobile/promo3.jpg');
+            }
+            75% {
+                background-image: url('images/mobile/promo4.jpg');
+            }
+            98% {
+                background-image: url('images/mobile/promo4.jpg');
+            }
+            100% {
+                background-image: url('images/mobile/Promo1.jpg');
+            }
+        }
+
     /* Seccion Clases */
 
     .clase-1,
@@ -873,24 +910,18 @@ footer {
         background-color: none;
         background-blend-mode: normal;
     }
-
         .clase-1 {
             background-image: url('images/mobile/box.jpg');
-
         }
-
         .clase-2 {
             background-image: url('images/mobile/funcional.jpg');
         }
-
         .clase-3 {
             background-image: url('images/mobile/gap.jpg');
         }
-
         .clase-4 {
             background-image: url('images/mobile/latino.jpg');
         }
-    
         .clase-1 h2,
         .clase-2 h2,
         .clase-3 h2,
@@ -941,7 +972,7 @@ footer {
 
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
 
                 33% {
@@ -953,7 +984,7 @@ footer {
                 }
 
                 100% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
             }
 
@@ -1193,6 +1224,42 @@ footer {
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
     }
 
+    /* Seccion Inicio */
+
+        main #inicio {
+            background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+        }
+
+            @keyframes promos-inicio {
+                0% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+                23% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+                25% {
+                    background-image: url('images/mobile/promo2.jpg');
+                }
+                48% {
+                    background-image: url('images/mobile/promo2.jpg');
+                }
+                50% {
+                    background-image: url('images/mobile/promo3.jpg');
+                }
+                73% {
+                    background-image: url('images/mobile/promo3.jpg');
+                }
+                75% {
+                    background-image: url('images/mobile/promo4.jpg');
+                }
+                98% {
+                    background-image: url('images/mobile/promo4.jpg');
+                }
+                100% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+            }
+
     /* Seccion Clases */
 
         .clase-1,
@@ -1233,7 +1300,7 @@ footer {
     }
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
                 33% {
                     background-image: url('images/mobile/equipos2.jpg');
@@ -1242,7 +1309,7 @@ footer {
                     background-image: url('images/mobile/equipos3.jpg');
                 }
                 100% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
             }
 
@@ -1382,6 +1449,41 @@ input, textarea {
         box-shadow: 0 0px 14px rgba(0,0,0,0.8);
     }
 
+    /* Seccion Inicio */
+
+        main #inicio {
+            background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+        }
+            @keyframes promos-inicio {
+                0% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+                23% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+                25% {
+                    background-image: url('images/mobile/promo2.jpg');
+                }
+                48% {
+                    background-image: url('images/mobile/promo2.jpg');
+                }
+                50% {
+                    background-image: url('images/mobile/promo3.jpg');
+                }
+                73% {
+                    background-image: url('images/mobile/promo3.jpg');
+                }
+                75% {
+                    background-image: url('images/mobile/promo4.jpg');
+                }
+                98% {
+                    background-image: url('images/mobile/promo4.jpg');
+                }
+                100% {
+                    background-image: url('images/mobile/Promo1.jpg');
+                }
+            }
+
     /* Seccion Clases */
 
             .clase-1,
@@ -1412,7 +1514,7 @@ input, textarea {
 
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
                 33% {
                     background-image: url('images/mobile/equipos2.jpg');
@@ -1421,7 +1523,7 @@ input, textarea {
                     background-image: url('images/mobile/equipos3.jpg');
                 }
                 100% {
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('images/mobile/equipos.jpg');
                 }
             }
             
@@ -1434,7 +1536,7 @@ input, textarea {
         .profe2 {
             background-image: url('images/mobile/B.jpg');
         }
-        
+
         /* Seccion Contactos */
 
         main #contacto p{
