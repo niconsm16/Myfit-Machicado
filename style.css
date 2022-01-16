@@ -873,6 +873,23 @@ footer {
         background-color: none;
         background-blend-mode: normal;
     }
+
+        .clase-1 {
+            background-image: url('images/mobile/box.jpg');
+
+        }
+
+        .clase-2 {
+            background-image: url('images/mobile/funcional.jpg');
+        }
+
+        .clase-3 {
+            background-image: url('images/mobile/gap.jpg');
+        }
+
+        .clase-4 {
+            background-image: url('images/mobile/latino.jpg');
+        }
     
         .clase-1 h2,
         .clase-2 h2,
@@ -908,6 +925,37 @@ footer {
             font-size: 1.1em;
             padding-top: 1.25em;
         }
+            .equiposFlex {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                margin-top: 0em;
+                overflow: hidden;
+                animation: carrusel-equipos 20s ease .1s infinite;
+                -webkit-animation: carrusel-equipos 20s ease .1s infinite;
+            }
+
+            @keyframes carrusel-equipos {
+                0% {
+                    background-image: url('images/equipos.jpg');
+                }
+
+                33% {
+                    background-image: url('images/mobile/equipos2.jpg');
+                }
+
+                67% {
+                    background-image: url('images/mobile/equipos3.jpg');
+                }
+
+                100% {
+                    background-image: url('images/equipos.jpg');
+                }
+            }
 
      /* Seccion Quienes somos */
 
@@ -929,6 +977,14 @@ footer {
     .bio-b div p {
     font-size: 0.6em;
     }
+
+            .profe1 {
+                background-image: url('images/mobile/A.jpg');
+            }
+
+            .profe2 {
+                background-image: url('images/mobile/B.jpg');
+            }
 
     /* Seccion Contactos */
 
@@ -1146,6 +1202,22 @@ footer {
             background-color: none;
             background-blend-mode: normal;
         }
+
+            .clase-1 {
+                background-image: url('images/mobile/box.jpg');
+            }
+
+            .clase-2 {
+                background-image: url('images/mobile/funcional.jpg');
+            }
+
+            .clase-3 {
+                background-image: url('images/mobile/gap.jpg');
+            }
+
+            .clase-4 {
+                background-image: url('images/mobile/latino.jpg');
+            }
     
     /* Seccion Equipos */
 
@@ -1159,6 +1231,20 @@ footer {
         padding: 0 8%;
         font-family: var(--bigshoulders)
     }
+            @keyframes carrusel-equipos {
+                0% {
+                    background-image: url('images/equipos.jpg');
+                }
+                33% {
+                    background-image: url('images/mobile/equipos2.jpg');
+                }
+                67% {
+                    background-image: url('images/mobile/equipos3.jpg');
+                }
+                100% {
+                    background-image: url('images/equipos.jpg');
+                }
+            }
 
     .equiposFlex .caja h2 {
         font-size: 2em;
@@ -1167,6 +1253,7 @@ footer {
         font-size: 1.5em;
         padding-top: 1.25em;
     }
+
 
     /* Seccion Quienes somos */
 
@@ -1188,6 +1275,14 @@ footer {
     .bio div p,
     .bio-b div p {
     font-size: 0.6em;
+    }
+
+    .profe1 {
+        background-image: url('images/mobile/A.jpg');
+    }
+
+    .profe2 {
+        background-image: url('images/mobile/B.jpg');
     }
 
     /* Seccion Contactos */
@@ -1297,6 +1392,49 @@ input, textarea {
                 background-blend-mode: normal;
             }
 
+            .clase-1 {
+                background-image: url('images/mobile/box.jpg');
+            }
+
+            .clase-2 {
+                background-image: url('images/mobile/funcional.jpg');
+            }
+
+            .clase-3 {
+                background-image: url('images/mobile/gap.jpg');
+            }
+
+            .clase-4 {
+                background-image: url('images/mobile/latino.jpg');
+            }
+
+        /* Seccion Equipos */
+
+            @keyframes carrusel-equipos {
+                0% {
+                    background-image: url('images/equipos.jpg');
+                }
+                33% {
+                    background-image: url('images/mobile/equipos2.jpg');
+                }
+                67% {
+                    background-image: url('images/mobile/equipos3.jpg');
+                }
+                100% {
+                    background-image: url('images/equipos.jpg');
+                }
+            }
+            
+        /* Seccion Quienes Somos */
+
+        .profe1 {
+            background-image: url('images/mobile/A.jpg');
+        }
+
+        .profe2 {
+            background-image: url('images/mobile/B.jpg');
+        }
+        
         /* Seccion Contactos */
 
         main #contacto p{
