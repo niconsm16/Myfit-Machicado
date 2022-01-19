@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+
+
+:root {
+    --verde: #70D70C;
+    --verdetrans: rgba(114, 215, 12, 0.93);
+    --gris1: #BABABA;
+    --gris2: #3D3D3D;
+    --asap: 'Asap Condensed', sans-serif;
+    --bigshoulders: 'Big Shoulders Text', cursive;
+}
+
+.bg-verde {
+    background: var(--verde);
+}
+
+.nav-item .text-white:hover {
+    color: var(--verde)!important;
+}
+.d-flex .bg-white:hover {
+    background-color: var(--verde) !important;
+}
+.dropdown-item:hover {
+    color:white;
+    background-color: var(--verde);
+}
+.font-asap {
+    font-family: 'Asap Condensed', sans-serif;
+    ;
+}

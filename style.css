@@ -245,7 +245,20 @@ h3 {
 h4 {
     font-weight: 100;
 }
-
+.new {
+    background: black;
+    color: var(--verde);
+    padding: 0.1rem 0.5rem;
+    margin: auto 0.3rem;
+    font-size: 0.7em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
 
 /* /////////////////////////// Main /////////////////////////// */
 
@@ -871,7 +884,9 @@ footer {
     .arriba {
         display: none;
     }
-
+.new {
+display: none;
+}
 
     /* Seccion Inicio */
 
