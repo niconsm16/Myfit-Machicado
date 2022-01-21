@@ -17,6 +17,15 @@
     --bigshoulders:'Big Shoulders Text', cursive;
 }
 
+/* Bootstrap  */
+    .center {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: 0 12.5%;
+    }
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -825,7 +834,7 @@ footer {
     display: block;
     position: fixed;
     bottom:1em;
-    width: 100%;
+    width: max-content;
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -1188,7 +1197,7 @@ display: none;
     display: block;
     position: fixed;
     bottom: 1em;
-    width: 100%;
+    width: max-content;
     background-color: black;
     color: white;
     text-transform: uppercase;
