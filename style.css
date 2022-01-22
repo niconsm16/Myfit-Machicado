@@ -285,7 +285,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url('images/FondoInicio.jpg') center no-repeat;
+        background: url('src/images/FondoInicio.jpg') center no-repeat;
         background-size: cover;
         width: auto;
         height: 84vh;
@@ -303,31 +303,31 @@ main {
 }
             @keyframes promos-inicio {
                 0% {
-                    background-image: url('images/Promo1.jpg');
+                    background-image: url('src/images/Promo1.jpg');
                 }
                                 23% {
-                                    background-image: url('images/Promo1.jpg');
+                                    background-image: url('src/images/Promo1.jpg');
                                 }
                 25% {
-                    background-image: url('images/promo2.jpg');
+                    background-image: url('src/images/promo2.jpg');
                 }
                                 48% {
-                                    background-image: url('images/promo2.jpg');
+                                    background-image: url('src/images/promo2.jpg');
                                 }
                 50% {
-                    background-image: url('images/promo3.jpg');
+                    background-image: url('src/images/promo3.jpg');
                 }
                                 73% {
-                                    background-image: url('images/promo3.jpg');
+                                    background-image: url('src/images/promo3.jpg');
                                 }
                 75% {
-                    background-image: url('images/promo4.jpg');
+                    background-image: url('src/images/promo4.jpg');
                 }
                                 98% {
-                                    background-image: url('images/promo4.jpg');
+                                    background-image: url('src/images/promo4.jpg');
                                 }
                 100% {
-                    background-image: url('images/Promo1.jpg');
+                    background-image: url('src/images/Promo1.jpg');
                 }
             }
 
@@ -370,22 +370,22 @@ main {
 
         .clase-1 {
             justify-content: start;
-            background-image: url('images/box.jpg');
+            background-image: url('src/images/box.jpg');
 
         }
         .clase-2 {
             justify-content: end;
-            background-image: url('images/funcional.jpg');
+            background-image: url('src/images/funcional.jpg');
             text-align: right;
             background-position-y: 36%;
         }
         .clase-3 {
             justify-content: start;
-            background-image: url('images/gap.jpg');
+            background-image: url('src/images/gap.jpg');
         }
         .clase-4 {
             justify-content: end;
-            background-image: url('images/latino.jpg');
+            background-image: url('src/images/latino.jpg');
             text-align: right;
             background-position-y: 16%;
         }
@@ -431,16 +431,16 @@ main {
         }
             @keyframes carrusel-equipos {
                 0%{
-                background-image: url('images/equipos.jpg');
+                background-image: url('src/images/equipos.jpg');
                 }
                 33% {
-                    background-image: url('images/equipos2.jpg');
+                    background-image: url('src/images/equipos2.jpg');
                 }
                 67% {
-                    background-image: url('images/equipos3.jpg');
+                    background-image: url('src/images/equipos3.jpg');
                 }
                 100%{
-                    background-image: url('images/equipos.jpg');
+                    background-image: url('src/images/equipos.jpg');
                 }
 }
         .equiposFlex .caja {   
@@ -499,11 +499,11 @@ main {
         background-position: center;
     }
         .profe1 {
-            background-image: url('images/A.jpg');
+            background-image: url('src/images/A.jpg');
         }
 
         .profe2 {
-            background-image: url('images/B.jpg');
+            background-image: url('src/images/B.jpg');
                 }
 
 .panel-bio {
@@ -900,36 +900,36 @@ display: none;
     /* Seccion Inicio */
 
     main #inicio {
-        background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+        background: url('src/images/mobile/FondoInicio.jpg') center no-repeat;
     }
 
         @keyframes promos-inicio {
             0% {
-                background-image: url('images/mobile/Promo1.jpg');
+                background-image: url('src/images/mobile/Promo1.jpg');
             }
             23% {
-                background-image: url('images/mobile/Promo1.jpg');
+                background-image: url('src/images/mobile/Promo1.jpg');
             }
             25% {
-                background-image: url('images/mobile/promo2.jpg');
+                background-image: url('src/images/mobile/promo2.jpg');
             }
             48% {
-                background-image: url('images/mobile/promo2.jpg');
+                background-image: url('src/images/mobile/promo2.jpg');
             }
             50% {
-                background-image: url('images/mobile/promo3.jpg');
+                background-image: url('src/images/mobile/promo3.jpg');
             }
             73% {
-                background-image: url('images/mobile/promo3.jpg');
+                background-image: url('src/images/mobile/promo3.jpg');
             }
             75% {
-                background-image: url('images/mobile/promo4.jpg');
+                background-image: url('src/images/mobile/promo4.jpg');
             }
             98% {
-                background-image: url('images/mobile/promo4.jpg');
+                background-image: url('src/images/mobile/promo4.jpg');
             }
             100% {
-                background-image: url('images/mobile/Promo1.jpg');
+                background-image: url('src/images/mobile/Promo1.jpg');
             }
         }
 
@@ -943,16 +943,16 @@ display: none;
         background-blend-mode: normal;
     }
         .clase-1 {
-            background-image: url('images/mobile/box.jpg');
+            background-image: url('src/images/mobile/box.jpg');
         }
         .clase-2 {
-            background-image: url('images/mobile/funcional.jpg');
+            background-image: url('src/images/mobile/funcional.jpg');
         }
         .clase-3 {
-            background-image: url('images/mobile/gap.jpg');
+            background-image: url('src/images/mobile/gap.jpg');
         }
         .clase-4 {
-            background-image: url('images/mobile/latino.jpg');
+            background-image: url('src/images/mobile/latino.jpg');
         }
         .clase-1 h2,
         .clase-2 h2,
@@ -1004,16 +1004,16 @@ display: none;
 
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
                 33% {
-                    background-image: url('images/mobile/equipos2.jpg');
+                    background-image: url('src/images/mobile/equipos2.jpg');
                 }
                 67% {
-                    background-image: url('images/mobile/equipos3.jpg');
+                    background-image: url('src/images/mobile/equipos3.jpg');
                 }
                 100% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
             }
 
@@ -1039,11 +1039,11 @@ display: none;
     }
 
             .profe1 {
-                background-image: url('images/mobile/A.jpg');
+                background-image: url('src/images/mobile/A.jpg');
             }
 
             .profe2 {
-                background-image: url('images/mobile/B.jpg');
+                background-image: url('src/images/mobile/B.jpg');
             }
 
     /* Seccion Contactos */
@@ -1253,36 +1253,36 @@ display: none;
     /* Seccion Inicio */
 
         main #inicio {
-            background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+            background: url('src/images/mobile/FondoInicio.jpg') center no-repeat;
         }
 
             @keyframes promos-inicio {
                 0% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
                 23% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
                 25% {
-                    background-image: url('images/mobile/promo2.jpg');
+                    background-image: url('src/images/mobile/promo2.jpg');
                 }
                 48% {
-                    background-image: url('images/mobile/promo2.jpg');
+                    background-image: url('src/images/mobile/promo2.jpg');
                 }
                 50% {
-                    background-image: url('images/mobile/promo3.jpg');
+                    background-image: url('src/images/mobile/promo3.jpg');
                 }
                 73% {
-                    background-image: url('images/mobile/promo3.jpg');
+                    background-image: url('src/images/mobile/promo3.jpg');
                 }
                 75% {
-                    background-image: url('images/mobile/promo4.jpg');
+                    background-image: url('src/images/mobile/promo4.jpg');
                 }
                 98% {
-                    background-image: url('images/mobile/promo4.jpg');
+                    background-image: url('src/images/mobile/promo4.jpg');
                 }
                 100% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
             }
 
@@ -1297,19 +1297,19 @@ display: none;
         }
 
             .clase-1 {
-                background-image: url('images/mobile/box.jpg');
+                background-image: url('src/images/mobile/box.jpg');
             }
 
             .clase-2 {
-                background-image: url('images/mobile/funcional.jpg');
+                background-image: url('src/images/mobile/funcional.jpg');
             }
 
             .clase-3 {
-                background-image: url('images/mobile/gap.jpg');
+                background-image: url('src/images/mobile/gap.jpg');
             }
 
             .clase-4 {
-                background-image: url('images/mobile/latino.jpg');
+                background-image: url('src/images/mobile/latino.jpg');
             }
     
     /* Seccion Equipos */
@@ -1326,16 +1326,16 @@ display: none;
     }
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
                 33% {
-                    background-image: url('images/mobile/equipos2.jpg');
+                    background-image: url('src/images/mobile/equipos2.jpg');
                 }
                 67% {
-                    background-image: url('images/mobile/equipos3.jpg');
+                    background-image: url('src/images/mobile/equipos3.jpg');
                 }
                 100% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
             }
 
@@ -1371,11 +1371,11 @@ display: none;
     }
 
     .profe1 {
-        background-image: url('images/mobile/A.jpg');
+        background-image: url('src/images/mobile/A.jpg');
     }
 
     .profe2 {
-        background-image: url('images/mobile/B.jpg');
+        background-image: url('src/images/mobile/B.jpg');
     }
 
     /* Seccion Contactos */
@@ -1468,7 +1468,7 @@ input, textarea {
             }
 
             .logo img {
-                content:url("images/myfitlogo3.png");
+                content:url("src/images/myfitlogo3.png");
             }
 
     /* MAIN */
@@ -1483,35 +1483,35 @@ input, textarea {
     /* Seccion Inicio */
 
         main #inicio {
-            background: url('images/mobile/FondoInicio.jpg') center no-repeat;
+            background: url('src/images/mobile/FondoInicio.jpg') center no-repeat;
         }
             @keyframes promos-inicio {
                 0% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
                 23% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
                 25% {
-                    background-image: url('images/mobile/promo2.jpg');
+                    background-image: url('src/images/mobile/promo2.jpg');
                 }
                 48% {
-                    background-image: url('images/mobile/promo2.jpg');
+                    background-image: url('src/images/mobile/promo2.jpg');
                 }
                 50% {
-                    background-image: url('images/mobile/promo3.jpg');
+                    background-image: url('src/images/mobile/promo3.jpg');
                 }
                 73% {
-                    background-image: url('images/mobile/promo3.jpg');
+                    background-image: url('src/images/mobile/promo3.jpg');
                 }
                 75% {
-                    background-image: url('images/mobile/promo4.jpg');
+                    background-image: url('src/images/mobile/promo4.jpg');
                 }
                 98% {
-                    background-image: url('images/mobile/promo4.jpg');
+                    background-image: url('src/images/mobile/promo4.jpg');
                 }
                 100% {
-                    background-image: url('images/mobile/Promo1.jpg');
+                    background-image: url('src/images/mobile/Promo1.jpg');
                 }
             }
 
@@ -1526,46 +1526,46 @@ input, textarea {
             }
 
             .clase-1 {
-                background-image: url('images/mobile/box.jpg');
+                background-image: url('src/images/mobile/box.jpg');
             }
 
             .clase-2 {
-                background-image: url('images/mobile/funcional.jpg');
+                background-image: url('src/images/mobile/funcional.jpg');
             }
 
             .clase-3 {
-                background-image: url('images/mobile/gap.jpg');
+                background-image: url('src/images/mobile/gap.jpg');
             }
 
             .clase-4 {
-                background-image: url('images/mobile/latino.jpg');
+                background-image: url('src/images/mobile/latino.jpg');
             }
 
         /* Seccion Equipos */
 
             @keyframes carrusel-equipos {
                 0% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
                 33% {
-                    background-image: url('images/mobile/equipos2.jpg');
+                    background-image: url('src/images/mobile/equipos2.jpg');
                 }
                 67% {
-                    background-image: url('images/mobile/equipos3.jpg');
+                    background-image: url('src/images/mobile/equipos3.jpg');
                 }
                 100% {
-                    background-image: url('images/mobile/equipos.jpg');
+                    background-image: url('src/images/mobile/equipos.jpg');
                 }
             }
             
         /* Seccion Quienes Somos */
 
         .profe1 {
-            background-image: url('images/mobile/A.jpg');
+            background-image: url('src/images/mobile/A.jpg');
         }
 
         .profe2 {
-            background-image: url('images/mobile/B.jpg');
+            background-image: url('src/images/mobile/B.jpg');
         }
 
         /* Seccion Contactos */
@@ -1609,7 +1609,7 @@ input, textarea {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url('images/fondo1.jpg');
+        background-image: url('src/images/fondo1.jpg');
         background-size: cover;
         background-position: 0 -14em;
         background-color: rgba(255,255,255,0.91);
