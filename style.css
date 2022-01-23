@@ -480,6 +480,7 @@ main {
         display: flex;
         align-self: center; 
         padding: 38% 8%;
+        font-family: var(--bigshoulders);
         -webkit-text-stroke: 2px var(--verde); 
         transition: all 2s;
         -webkit-transition: all 2s;
@@ -503,7 +504,6 @@ main {
         width: 96%;
         height: 82%;
         display: grid;
-        padding: ;
         gap: 1rem;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
@@ -514,7 +514,6 @@ main {
         background-color: transparent;
         background-blend-mode: luminosity;
         background-size: cover;
-        background-color: ;
         background-position: center;
         transition: all .5s;
         border-radius: 4px;
@@ -574,7 +573,17 @@ main {
     -ms-transition: all 1s;
     -o-transition: all 1s;
 }
-
+    .panel-bio:active::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.829);
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        z-index: -1;
+    }
     .panel-bio:hover {
         opacity: 1;
         box-shadow: 8px 9px 15px rgba(0,0,0,0.6);
@@ -624,19 +633,6 @@ main {
                 }
 
 
-.panel-bio:active::before {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.829);
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    left: 0%;
-    top: 0%;
-    z-index: -1;
-}
-
-
 /* Contacto */
 
 main #contacto,
@@ -656,6 +652,12 @@ main #contacto p {
     main #contacto img {
         width: 21.625em;
         padding: 1.5rem 0 1rem 0;
+    }
+
+/* Bootstrap */
+
+    .inputbt {
+        margin: 0 12.5%;
     }
 
     /* Formulario */
