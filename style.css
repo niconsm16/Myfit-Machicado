@@ -486,31 +486,63 @@ main {
         color: white;   
     }
 
+    .profes-container{
+        display: grid; 
+        justify-items:center;
+    }
     .profes {
-        width: 100%;
+        width: 96%;
         height: 82%;
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        padding: ;
+        gap: 1rem;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
     }
     .profe{
-        width: 49%;
+        width: 100%;
+        background-color: transparent;
+        background-blend-mode: luminosity;
         background-size: cover;
-        background-color: white;
+        background-color: ;
         background-position: center;
+        transition: all .5s;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+}
+    .profe:hover {
+        background-color: black;
     }
         .profe1 {
             background-image: url('src/images/A.jpg');
         }
-
         .profe2 {
             background-image: url('src/images/B.jpg');
-                }
+            background-size: auto;
+            background-position-y: 77rem;
+        }
+        .profe3 {
+            background-image: url('src/images/C.jpg');
+            background-position-y: inherit;
+        }
+        .profe4 {
+            background-image: url('src/images/D.jpg');
+            background-position-y: inherit;
+
+        }
 
 .panel-bio {
     display:flex;
     position: relative;
     left: -10%;
-    top: 41%;
     justify-content: space-between;
     align-items: center;
     width: 140%;
@@ -518,15 +550,26 @@ main {
     border-radius: 9px;
     box-shadow: 6px ​6px 22px 1px rgba(0, 0, 0, 0.71);
     padding: 5% 5%;
-    transition: all .4s;
     opacity: 0;
     z-index: 0;
+    transition: all .6s ease-in;
+    -webkit-transition: all .6s ease-in;
+    -moz-transition: all .6s ease-in;
+    -ms-transition: all .6s ease-in;
+    -o-transition: all .6s ease-in;
 }
+.panel-bio:active {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
     .panel-bio:hover {
         opacity: 1;
         box-shadow: 8px 9px 15px rgba(0,0,0,0.6);
     }
-
     .panel-bio .prof-imgs {
         display: flex;
         align-content: center;
@@ -538,9 +581,10 @@ main {
         object-fit: cover;
         
     }
+
     .bioder {
         left: -44%;
-        top: 41%;
+        
     }
         .bio {
             text-align: left;
@@ -570,19 +614,19 @@ main {
                     fill: var(--verde);
                 }
 
-/* PROYECTANDO FONDO OPACO MENU PROFES
-.panel-bio:hover::before {
+
+.panel-bio:active::before {
     content: "";
     background-color: rgba(0, 0, 0, 0.829);
-    position: absolute;
-    display: block;
-    width: 202%;
-    height: 264%;
-    left: -50%;
-    top: -100%;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
     z-index: -1;
 }
-*/
+
 
 /* Contacto */
 

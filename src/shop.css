@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
 :root {
@@ -29,4 +30,21 @@
 .font-asap {
     font-family: 'Asap Condensed', sans-serif;
     ;
+}
+
+.font-poppins {
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(243, 243, 243, 0.533);
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);
 }
