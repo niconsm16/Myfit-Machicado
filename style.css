@@ -475,6 +475,7 @@ main {
     #quienessomos .profes-container h2 {
         color: white;
         font-size: 7rem;
+        font-family: var(--bigshoulders);
         text-shadow: 0px 2px 9px black;
         position: absolute;
         display: flex;
