@@ -15,7 +15,9 @@
 
 .bg-verde {
     background: var(--verde);
-    background-color: var(--verde)!important;
+}
+.bg-verde-imp {
+    background-color: var(--verde) !important;
 }
 .displaycontents {
     display: block;
