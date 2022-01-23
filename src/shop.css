@@ -16,7 +16,9 @@
 .bg-verde {
     background: var(--verde);
 }
-
+.displaycontents {
+    display: block;
+}
 .nav-item .text-white:hover {
     color: var(--verde)!important;
 }
@@ -31,9 +33,8 @@
     font-family: 'Asap Condensed', sans-serif;
     ;
 }
-
 .font-poppins {
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -47,4 +48,17 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.8);
+}
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width:1184px) {
+
+.displaycontents {
+    display: contents;
+    width: 75%!important;
+}
+.centerblock {
+padding: 0 15rem;
+}
 }
