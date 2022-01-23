@@ -503,7 +503,6 @@ main {
         width: 96%;
         height: 82%;
         display: grid;
-        padding: ;
         gap: 1rem;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
@@ -514,7 +513,6 @@ main {
         background-color: transparent;
         background-blend-mode: luminosity;
         background-size: cover;
-        background-color: ;
         background-position: center;
         transition: all .5s;
         border-radius: 4px;
