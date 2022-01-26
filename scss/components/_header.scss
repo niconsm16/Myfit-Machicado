@@ -1,0 +1,355 @@
+/* /////////////////////////// Header /////////////////////////// */
+
+.header-container {
+    margin: 0%;
+    padding: 0%;
+
+    .header-sin-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-size: cover;
+        background-position: 0 -14em;
+        background-color: rgba(255, 255, 255, 0.91);
+        background-blend-mode: overlay;
+
+
+        #redes {
+            /* Redes */
+            display: inline-block;
+            height: 100%;
+            width: 20%;
+
+            a {
+                display: block;
+                padding-left: 1.6rem;
+                font-size: 0.85em;
+                text-align: left;
+                line-height: 1.5em;
+                transition: font-size 0.2s;
+
+                svg {
+                    @media screen and (min-width: 2560px) {
+                        transform: scale(1.5);
+                        padding-bottom: 0.2rem;
+                    }
+                }
+
+                svg,
+                &:link,
+                &:visited {
+                    vertical-align: text-bottom;
+                    padding-right: 0.2em;
+                    color: black;
+                    fill: black;
+                    text-decoration-line: none;
+
+                    @media screen and (max-width: 320px) {
+                        vertical-align: text-bottom;
+                        color: black;
+                        fill: black;
+                        text-decoration-line: none;
+                        padding: 0.1rem 0;
+                        margin-left: 0.2rem;
+                    }
+
+                    @media screen and (min-width: 321px) and (max-width: 570px) {
+                        vertical-align: text-bottom;
+                        color: black;
+                        fill: black;
+                        text-decoration-line: none;
+                        padding: 0.1rem 0.5rem;
+                    }
+
+                    @media screen and (min-width: 571px) and (max-width: 960px) {
+                        color: white;
+                        fill: white;
+                    }
+                }
+
+                &:link:hover,
+                &:link:hover svg,
+                &:visited:hover,
+                &:visited:hover svg {
+                    color: $verde;
+                    fill: $verde;
+                    text-decoration-line: none;
+                    font-size: 0.9em;
+
+                    @media screen and (max-width: 320px) {
+                        font-size: 0em;
+                    }
+
+                    @media screen and (min-width: 321px) and (max-width: 570px) {
+                        font-size: 0em;
+                    }
+
+                    @media screen and (min-width: 571px) and (max-width: 960px) {
+                        color: white;
+                        fill: white;
+                        text-decoration-line: none;
+                        font-size: 0.9em;
+                    }
+
+                    @media screen and (min-width: 2560px) {
+                        color: var(--verde);
+                        fill: var(--verde);
+                        text-decoration-line: none;
+                        font-size: 1.65em;
+                    }
+                }
+
+                @media screen and (max-width: 320px) {
+                    display: block;
+                    padding-left: 0.6rem;
+                    font-size: 0em;
+                    text-align: left;
+                    line-height: 1.5em;
+                    transition: font-size .2s;
+                }
+
+                @media screen and (min-width: 321px) and (max-width: 570px) {
+                    display: block;
+                    padding-left: 0.6rem;
+                    font-size: 0em;
+                    text-align: left;
+                    line-height: 1.5em;
+                    transition: font-size .2s;
+                }
+
+                @media screen and (min-width: 2560px) {
+                    padding-left: 1.6rem;
+                    font-size: 1.55em;
+                    text-align: left;
+                    line-height: 1.5em;
+                }
+            }
+
+            @media screen and (max-width: 320px) {
+                display: inline-block;
+                height: 100%;
+                width: 20%;
+            }
+
+            @media screen and (min-width: 321px) and (max-width: 570px) {
+                display: inline-block;
+                height: 100%;
+                width: 20%;
+            }
+
+        }
+
+        .logo {
+            display: block;
+
+            img {
+                @media screen and (max-width: 320px) {
+                    max-height: 3.5rem;
+                }
+
+                @media screen and (min-width: 321px) and (max-width: 570px) {
+                    max-height: 75px;
+                }
+
+                @media screen and (min-width: 571px) and (max-width: 960px) {
+                    content: url("/src/images/myfitlogo3.png");
+                }
+
+                @media screen and (min-width: 2560px) {
+                    height: 165px;
+                }
+            }
+        }
+
+        .direccion {
+            /* Direccion */
+            display: inline-block;
+            width: 20%;
+            text-align: center;
+            padding-right: 2em;
+            cursor: pointer;
+
+            details {
+                summary {
+                    h3 {
+                        color: $gris2;
+                        font-family: $asap;
+                        font-size: 0.9em;
+                        text-align: end;
+
+                        &:hover {
+                            color: black;
+
+                            @media screen and (min-width: 321px) and (max-width: 570px) {
+                                color: $verde;
+                                font-weight: bold;
+                            }
+
+                            @media screen and (min-width: 571px) and (max-width: 960px) {
+                                color: white;
+                            }
+                        }
+
+                        @media screen and (max-width: 320px) {
+                            color: white;
+                            font-size: 0.4em;
+                            transition: all .2s;
+                        }
+
+                        @media screen and (min-width: 321px) and (max-width: 570px) {
+                            color: white;
+                            font-family: 'Amiko',
+                                sans-serif;
+                            font-size: 0.6em;
+                            transition: all .2s;
+                        }
+
+                        @media screen and (min-width: 571px) and (max-width: 960px) {
+                            color: $gris1;
+                            font-family: $asap;
+                            text-align: end;
+                            font-variant: small-caps;
+                        }
+
+                        @media screen and (min-width: 2560px) {
+                            font-size: 1.5em;
+                        }
+                    }
+
+                    h4 {
+                        color: $gris2;
+                        font-family: $asap;
+                        font-size: 0.62em;
+                        text-align: end;
+
+                        &:hover {
+                            color: black;
+
+                            @media screen and (min-width: 321px) and (max-width: 570px) {
+                                color: $verde;
+                            }
+
+                            @media screen and (min-width: 571px) and (max-width: 960px) {
+                                color: white;
+                            }
+
+                        }
+
+                        @media screen and (max-width: 320px) {
+                            color: white;
+                            font-size: 0.25em;
+                            transition: all .2s;
+                        }
+
+                        @media screen and (min-width: 321px) and (max-width: 570px) {
+                            color: white;
+                            font-family: 'Amiko',
+                                sans-serif;
+                            font-size: 0.4em;
+                            transition: all .2s;
+                        }
+
+                        @media screen and (min-width: 571px) and (max-width: 960px) {
+                            color: $gris1;
+                            font-size: 0.6em;
+                            font-family: $asap;
+                            text-align: end;
+                        }
+
+                        @media screen and (min-width: 2560px) {
+                            font-size: 1em;
+                        }
+                    }
+
+                    &:first-of-type {
+                        list-style-type: none;
+                    }
+                }
+
+                .mapa {
+                    position: absolute;
+                    right: 0;
+                    margin-top: 3em;
+                }
+            }
+
+            details[open] summary~* {
+                animation: mapa 0.5s;
+                -webkit-animation: mapa 0.5s;
+            }
+
+            @keyframes mapa {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @media screen and (max-width: 320px) {
+                padding-right: 0.4em;
+                cursor: pointer;
+            }
+
+            @media screen and (min-width: 321px) and (max-width: 570px) {
+                display: inline-block;
+                width: 20%;
+                text-align: center;
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+                padding-bottom: 0em;
+                cursor: pointer;
+            }
+
+            @media screen and (min-width: 2560px) {
+                padding-right: 0em;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: none;
+            background-size: cover;
+            background-position: 0 -14em;
+            background-color: white;
+            background-blend-mode: overlay;
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: none;
+            background-size: cover;
+            background-position: 0 -14em;
+            background-color: white;
+            background-blend-mode: overlay;
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: none;
+            background-size: cover;
+            background-position: 0 -14em;
+            background-color: rgba(0, 0, 0, 1);
+        }
+
+        @media screen and (min-width: 2560px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url('/src/images/fondo1.jpg');
+            background-size: cover;
+            background-position: 0 -14em;
+            background-color: rgba(255, 255, 255, 0.91);
+            background-blend-mode: overlay;
+        }
+    }
+
+}

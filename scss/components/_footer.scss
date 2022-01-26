@@ -1,0 +1,109 @@
+/* /////////////////////////// Footer /////////////////////////// */
+footer {
+    background-color: black;
+    padding-top: 2.063em;
+    padding-bottom: 2.063em;
+    margin-left: 10.825em;
+    margin-right: 10.825em;
+    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
+    font-family: $asap;
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: -0.1em;
+
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            transition: font-size 0.2s;
+
+            svg {
+                vertical-align: text-bottom;
+                padding-right: 0.188em;
+
+                @media only screen and (min-width: 2560px) {
+                    transform: scale(2.5);
+                    padding-right: 0.8rem;
+                    padding-bottom: 0.4rem;
+                }
+            }
+
+            &:link,
+            &:visited {
+                color: $gris1;
+                text-decoration-line: none;
+
+                svg {
+                    fill: $gris1;
+                }
+            }
+
+            &:link:hover,
+            &:visited:hover {
+                color: $verde;
+                text-decoration-line: none;
+                font-size: 1.1em;
+
+                svg {
+                    fill: $verde;
+                }
+            }
+
+            &:last-child:hover,
+            &:last-child:visited:hover {
+                color: white;
+                text-decoration-line: none;
+                font-size: 1.1em;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        background-color: black;
+        padding-top: 2.063em;
+        padding-bottom: 3.063em;
+        margin-left: 1.35em;
+        margin-right: 1.35em;
+        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
+        font-family: $asap;
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 570px) {
+        background-color: black;
+        padding-top: 2.063em;
+        padding-bottom: 5.063em;
+        margin-left: 1.35em;
+        margin-right: 1.35em;
+        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
+        font-family: $asap;
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 571px) and (max-width: 960px) {
+        background-color: black;
+        padding-top: 2.063em;
+        padding-bottom: 2.063em;
+        margin-left: 3.98em;
+        margin-right: 3.98em;
+        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
+        font-family: var(--asap);
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 2560px) {
+        font-size: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+}

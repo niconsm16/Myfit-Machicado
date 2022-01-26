@@ -1,0 +1,171 @@
+/* Sección Clases */
+#clases {
+    height: 100vh;
+    display: inline;
+    align-content: center;
+    margin: 0.25rem 0;
+
+    .clase-1,
+    .clase-2,
+    .clase-3,
+    .clase-4 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 13.525em;
+        color: white;
+        text-shadow: rgba(0, 0, 0, 0.71) 2px 2px 5px;
+        margin: 0.4em 0em;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.25);
+        background-blend-mode: overlay;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+
+        h2 {
+            color: $verde;
+            font-size: 3.75em;
+
+            @media screen and (max-width: 320px) {
+                color: $verde;
+                font-size: 1.75em;
+            }
+
+            @media only screen and (min-width: 2560px) {
+                font-size: 7.75em;
+            }
+        }
+
+        h3 {
+            font-size: 1.563em;
+
+            @media screen and (max-width: 320px) {
+                font-size: 1.263em;
+            }
+
+            @media only screen and (min-width: 2560px) {
+                font-size: 2.263em;
+            }
+        }
+
+        h4 {
+            font-size: 1.125em;
+
+            @media screen and (max-width: 320px) {
+                font-size: 0.925em;
+            }
+
+            @media only screen and (min-width: 2560px) {
+                font-size: 1.925em;
+            }
+        }
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.02);
+        }
+
+        @media screen and (max-width: 320px) {
+            background-color: none;
+            background-blend-mode: normal;
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            background-color: none;
+            background-blend-mode: normal;
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            background-color: none;
+            background-blend-mode: normal;
+        }
+
+        @media only screen and (min-width: 2560px) {
+            height: 25.675em;
+        }
+
+    }
+
+    .clase-1 {
+        justify-content: start;
+        background-image: url("/src/images/box.jpg");
+
+        @media screen and (max-width: 320px) {
+            background-image: url('/src/images/mobile/box.jpg');
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            background-image: url('/src/images/mobile/box.jpg');
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            background-image: url('/src/images/mobile/box.jpg');
+        }
+    }
+
+    .clase-2 {
+        justify-content: end;
+        background-image: url("/src/images/funcional.jpg");
+        text-align: right;
+        background-position-y: 36%;
+
+        @media screen and (max-width: 320px) {
+            background-image: url('/src/images/mobile/funcional.jpg');
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            background-image: url('/src/images/mobile/funcional.jpg');
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            background-image: url('/src/images/mobile/funcional.jpg');
+        }
+    }
+
+    .clase-3 {
+        justify-content: start;
+        background-image: url("/src/images/gap.jpg");
+
+        @media screen and (max-width: 320px) {
+            background-image: url('/src/images/mobile/gap.jpg');
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            background-image: url('/src/images/mobile/gap.jpg');
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            background-image: url('/src/images/mobile/gap.jpg');
+        }
+    }
+
+    .clase-4 {
+        justify-content: end;
+        background-image: url("/src/images/latino.jpg");
+        text-align: right;
+        background-position-y: 16%;
+
+        @media screen and (max-width: 320px) {
+            background-image: url('/src/images/mobile/latino.jpg');
+        }
+
+        @media screen and (min-width: 321px) and (max-width: 570px) {
+            background-image: url('/src/images/mobile/latino.jpg');
+        }
+
+        @media screen and (min-width: 571px) and (max-width: 960px) {
+            background-image: url('/src/images/mobile/latino.jpg');
+        }
+
+
+    }
+
+    @media only screen and (min-width: 2560px) {
+        height: 100vh;
+    }
+}
