@@ -336,7 +336,7 @@ h4 {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   .header-container .header-sin-menu .logo img {
-    content: url("/src/images/myfitlogo3.png");
+    content: url("/Myfit-Machicado/src/images/myfitlogo3.png");
   }
 }
 @media screen and (min-width: 2560px) {
@@ -529,7 +529,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/src/images/fondo1.jpg");
+    background-image: url("/Myfit-Machicado/src/images/fondo1.jpg");
     background-size: cover;
     background-position: 0 -14em;
     background-color: rgba(255, 255, 255, 0.91);
@@ -683,7 +683,7 @@ main #inicio {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/src/images/FondoInicio.jpg") center no-repeat;
+  background: url("/Myfit-Machicado/src/images/FondoInicio.jpg") center no-repeat;
   background-size: cover;
   width: auto;
   height: 84vh;
@@ -700,132 +700,132 @@ main #inicio .promos {
 }
 @keyframes promos-inicio {
   0% {
-    background-image: url("/src/images/Promo1.jpg");
+    background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
   }
   23% {
-    background-image: url("/src/images/Promo1.jpg");
+    background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
   }
   25% {
-    background-image: url("/src/images/promo2.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo2.jpg");
   }
   48% {
-    background-image: url("/src/images/promo2.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo2.jpg");
   }
   50% {
-    background-image: url("/src/images/promo3.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo3.jpg");
   }
   73% {
-    background-image: url("/src/images/promo3.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo3.jpg");
   }
   75% {
-    background-image: url("/src/images/promo4.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo4.jpg");
   }
   98% {
-    background-image: url("/src/images/promo4.jpg");
+    background-image: url("/Myfit-Machicado/src/images/promo4.jpg");
   }
   100% {
-    background-image: url("/src/images/Promo1.jpg");
+    background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
   }
 }
 @media screen and (max-width: 320px) {
   main #inicio {
-    background: url("/src/images/mobile/FondoInicio.jpg") center no-repeat;
+    background: url("/Myfit-Machicado/src/images/mobile/FondoInicio.jpg") center no-repeat;
   }
   @keyframes promos-inicio {
     0% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     23% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     25% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     48% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     50% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     73% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     75% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     98% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   main #inicio {
-    background: url("/src/images/mobile/FondoInicio.jpg") center no-repeat;
+    background: url("/Myfit-Machicado/src/images/mobile/FondoInicio.jpg") center no-repeat;
   }
   @keyframes promos-inicio {
     0% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     23% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     25% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     48% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     50% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     73% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     75% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     98% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   main #inicio {
-    background: url("/src/images/mobile/FondoInicio.jpg") center no-repeat;
+    background: url("/Myfit-Machicado/src/images/mobile/FondoInicio.jpg") center no-repeat;
   }
   @keyframes promos-inicio {
     0% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     23% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
     25% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     48% {
-      background-image: url("/src/images/mobile/promo2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo2.jpg");
     }
     50% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     73% {
-      background-image: url("/src/images/mobile/promo3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo3.jpg");
     }
     75% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     98% {
-      background-image: url("/src/images/mobile/promo4.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/promo4.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/Promo1.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/Promo1.jpg");
     }
   }
 }
@@ -976,82 +976,82 @@ main #inicio .promos {
 }
 #clases .clase-1 {
   justify-content: start;
-  background-image: url("/src/images/box.jpg");
+  background-image: url("/Myfit-Machicado/src/images/box.jpg");
 }
 @media screen and (max-width: 320px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/box.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/box.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/box.jpg");
   }
 }
 #clases .clase-2 {
   justify-content: end;
-  background-image: url("/src/images/funcional.jpg");
+  background-image: url("/Myfit-Machicado/src/images/funcional.jpg");
   text-align: right;
   background-position-y: 36%;
 }
 @media screen and (max-width: 320px) {
   #clases .clase-2 {
-    background-image: url("/src/images/mobile/funcional.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/funcional.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-2 {
-    background-image: url("/src/images/mobile/funcional.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/funcional.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-2 {
-    background-image: url("/src/images/mobile/funcional.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/funcional.jpg");
   }
 }
 #clases .clase-3 {
   justify-content: start;
-  background-image: url("/src/images/gap.jpg");
+  background-image: url("/Myfit-Machicado/src/images/gap.jpg");
 }
 @media screen and (max-width: 320px) {
   #clases .clase-3 {
-    background-image: url("/src/images/mobile/gap.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/gap.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-3 {
-    background-image: url("/src/images/mobile/gap.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/gap.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-3 {
-    background-image: url("/src/images/mobile/gap.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/gap.jpg");
   }
 }
 #clases .clase-4 {
   justify-content: end;
-  background-image: url("/src/images/latino.jpg");
+  background-image: url("/Myfit-Machicado/src/images/latino.jpg");
   text-align: right;
   background-position-y: 16%;
 }
 @media screen and (max-width: 320px) {
   #clases .clase-4 {
-    background-image: url("/src/images/mobile/latino.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/latino.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-4 {
-    background-image: url("/src/images/mobile/latino.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/latino.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-4 {
-    background-image: url("/src/images/mobile/latino.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/latino.jpg");
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -1080,16 +1080,16 @@ main #inicio .promos {
 }
 @keyframes carrusel-equipos {
   0% {
-    background-image: url("/src/images/equipos.jpg");
+    background-image: url("/Myfit-Machicado/src/images/equipos.jpg");
   }
   33% {
-    background-image: url("/src/images/equipos2.jpg");
+    background-image: url("/Myfit-Machicado/src/images/equipos2.jpg");
   }
   67% {
-    background-image: url("/src/images/equipos3.jpg");
+    background-image: url("/Myfit-Machicado/src/images/equipos3.jpg");
   }
   100% {
-    background-image: url("/src/images/equipos.jpg");
+    background-image: url("/Myfit-Machicado/src/images/equipos.jpg");
   }
 }
 #equipos .equiposFlex .caja {
@@ -1165,32 +1165,32 @@ main #inicio .promos {
   }
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
     33% {
-      background-image: url("/src/images/mobile/equipos2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("/src/images/mobile/equipos3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
     33% {
-      background-image: url("/src/images/mobile/equipos2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("/src/images/mobile/equipos3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
   }
 }
@@ -1216,16 +1216,16 @@ main #inicio .promos {
   }
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
     33% {
-      background-image: url("/src/images/mobile/equipos2.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("/src/images/mobile/equipos3.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("/src/images/mobile/equipos.jpg");
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos.jpg");
     }
   }
 }
@@ -1378,79 +1378,79 @@ main #inicio .promos {
   background-color: black;
 }
 #quienessomos .profes-container .profes .profe1 {
-  background-image: url("/src/images/A.jpg");
+  background-image: url("/Myfit-Machicado/src/images/A.jpg");
 }
 @media screen and (max-width: 320px) {
   #quienessomos .profes-container .profes .profe1 {
-    background-image: url("/src/images/mobile/A.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/A.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe1 {
-    background-image: url("/src/images/mobile/A.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/A.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #quienessomos .profes-container .profes .profe1 {
-    background-image: url("/src/images/mobile/A.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/A.jpg");
   }
 }
 #quienessomos .profes-container .profes .profe2 {
-  background-image: url("/src/images/B.jpg");
+  background-image: url("/Myfit-Machicado/src/images/B.jpg");
   background-size: auto;
   background-position-y: 77rem;
 }
 @media screen and (max-width: 320px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("/src/images/mobile/B.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/B.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("/src/images/mobile/B.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/B.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("/src/images/mobile/B.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/B.jpg");
   }
 }
 #quienessomos .profes-container .profes .profe3 {
-  background-image: url("/src/images/C.jpg");
+  background-image: url("/Myfit-Machicado/src/images/C.jpg");
   background-position-y: inherit;
 }
 @media screen and (max-width: 320px) {
   #quienessomos .profes-container .profes .profe3 {
-    background-image: url("/src/images/mobile/C.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/C.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe3 {
-    background-image: url("/src/images/mobile/C.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/C.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #quienessomos .profes-container .profes .profe3 {
-    background-image: url("/src/images/mobile/C.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/C.jpg");
   }
 }
 #quienessomos .profes-container .profes .profe4 {
-  background-image: url("/src/images/D.jpg");
+  background-image: url("/Myfit-Machicado/src/images/D.jpg");
   background-position-y: inherit;
 }
 @media screen and (max-width: 320px) {
   #quienessomos .profes-container .profes .profe4 {
-    background-image: url("/src/images/mobile/D.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/D.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe4 {
-    background-image: url("/src/images/mobile/D.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/D.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #quienessomos .profes-container .profes .profe4 {
-    background-image: url("/src/images/mobile/D.jpg");
+    background-image: url("/Myfit-Machicado/src/images/mobile/D.jpg");
   }
 }
 #quienessomos .profes-container .profes .panel-bio .prof-imgs {
