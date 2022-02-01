@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /Myfit-Machicado/src/shop.html
