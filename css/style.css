@@ -45,12 +45,12 @@ body::-webkit-scrollbar-track {
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .margen-clases {
-    background: rgba(0, 0, 0, 0.35);
+    background: none;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   .margen-clases {
-    background: rgba(0, 0, 0, 0.35);
+    background: none;
   }
 }
 
@@ -64,12 +64,12 @@ body::-webkit-scrollbar-track {
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .margen-clasesb {
-    background: rgba(0, 0, 0, 0.35);
+    background: none;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   .margen-clasesb {
-    background: rgba(0, 0, 0, 0.35);
+    background: none;
   }
 }
 

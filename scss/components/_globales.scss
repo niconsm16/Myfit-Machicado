@@ -45,11 +45,11 @@ body {
   height: 100%;
 
   @include mqs(sm1, sm2) {
-    background: rgba(0, 0, 0, 35%);
+    background: none;
   }
 
   @include mqs(mm1, mm2) {
-    background: rgba(0, 0, 0, 35%);
+    background: none;
   }
 }
 
@@ -62,11 +62,11 @@ body {
   height: 100%;
 
   @include mqs(sm1, sm2) {
-    background: rgba(0, 0, 0, 35%);
+    background: none;
   }
 
   @include mqs(mm1, mm2) {
-    background: rgba(0, 0, 0, 35%);
+    background: none;
   }
 }
 
