@@ -683,28 +683,16 @@ main {
   margin-right: 8.125em;
   box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
 }
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   main {
-    background-color: black;
     margin-left: 1em;
     margin-right: 1em;
-    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 570px) {
-  main {
-    background-color: black;
-    margin-left: 1em;
-    margin-right: 1em;
-    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   main {
-    background-color: black;
     margin-left: 3em;
     margin-right: 3em;
-    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
   }
 }
 
