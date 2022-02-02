@@ -43,6 +43,16 @@ body::-webkit-scrollbar-track {
   padding-right: 3.216em;
   height: 100%;
 }
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .margen-clases {
+    background: rgba(0, 0, 0, 0.35);
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 570px) {
+  .margen-clases {
+    background: rgba(0, 0, 0, 0.35);
+  }
+}
 
 .margen-clasesb {
   display: grid;
@@ -51,6 +61,16 @@ body::-webkit-scrollbar-track {
   padding-left: 3.216em;
   padding-right: 3.216em;
   height: 100%;
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .margen-clasesb {
+    background: rgba(0, 0, 0, 0.35);
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 570px) {
+  .margen-clasesb {
+    background: rgba(0, 0, 0, 0.35);
+  }
 }
 
 .arriba {
@@ -93,6 +113,7 @@ h4 {
 /* Marquee */
 .marquee {
   display: none;
+  z-index: 1;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .marquee {
