@@ -64,12 +64,12 @@ body::-webkit-scrollbar-track {
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .margen-clasesb {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.6) 65%, rgba(0, 0, 0, 0.1) 100%);
+    background: none;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   .margen-clasesb {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.6) 65%, rgba(0, 0, 0, 0.1) 100%);
+    background: none;
   }
 }
 
