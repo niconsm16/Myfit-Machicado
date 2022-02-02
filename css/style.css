@@ -327,14 +327,19 @@ h4 {
 .header-container .header-sin-menu .logo {
   display: block;
 }
+.header-container .header-sin-menu .logo img {
+  width: 100%;
+}
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .header-container .header-sin-menu .logo img {
     max-height: 3.5rem;
+    width: 100%;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   .header-container .header-sin-menu .logo img {
     max-height: 75px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
@@ -345,6 +350,7 @@ h4 {
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
   .header-container .header-sin-menu .logo img {
     height: 165px;
+    width: 100%;
   }
 }
 .header-container .header-sin-menu .direccion {

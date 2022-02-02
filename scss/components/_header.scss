@@ -146,12 +146,16 @@
             display: block;
 
             img {
+                width: 100%;
+
                 @include mqs(sm1, sm2) {
                     max-height: 3.5rem;
+                    width: 100%;
                 }
 
                 @include mqs(mm1, mm2) {
                     max-height: 75px;
+                    width: 100%;
                 }
 
                 @include mqs(tab1, tab2) {
@@ -160,6 +164,7 @@
 
                 @include mqs(4k1, 4k2) {
                     height: 165px;
+                    width: 100%;
                 }
             }
         }
