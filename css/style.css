@@ -365,7 +365,7 @@ h4 {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   .header-container .header-sin-menu .logo img {
-    content: url("/Myfit-Machicado/src/images/myfitlogo3.png");
+    content: url("/Myfit-Machicado/src/images/myfitlogo3.webp");
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {

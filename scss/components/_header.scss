@@ -159,7 +159,7 @@
                 }
 
                 @include mqs(tab1, tab2) {
-                    content: url("/Myfit-Machicado/src/images/myfitlogo3.png");
+                    content: url("/Myfit-Machicado/src/images/myfitlogo3.webp");
                 }
 
                 @include mqs(4k1, 4k2) {
