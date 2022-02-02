@@ -4,7 +4,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url("/Myfit-Machicado/src/images/FondoInicio.jpg") center no-repeat;
+        background: url("/Myfit-Machicado/src/images/FondoInicio.webp") center no-repeat;
         background-size: cover;
         width: auto;
         height: 84vh;
@@ -22,165 +22,39 @@ main {
 
         @keyframes promos-inicio {
             0% {
-                background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
+                background-image: url("/Myfit-Machicado/src/images/Promo1.webp");
             }
 
             23% {
-                background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
+                background-image: url("/Myfit-Machicado/src/images/Promo1.webp");
             }
 
             25% {
-                background-image: url("/Myfit-Machicado/src/images/promo2.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo2.webp");
             }
 
             48% {
-                background-image: url("/Myfit-Machicado/src/images/promo2.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo2.webp");
             }
 
             50% {
-                background-image: url("/Myfit-Machicado/src/images/promo3.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo3.webp");
             }
 
             73% {
-                background-image: url("/Myfit-Machicado/src/images/promo3.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo3.webp");
             }
 
             75% {
-                background-image: url("/Myfit-Machicado/src/images/promo4.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo4.webp");
             }
 
             98% {
-                background-image: url("/Myfit-Machicado/src/images/promo4.jpg");
+                background-image: url("/Myfit-Machicado/src/images/promo4.webp");
             }
 
             100% {
-                background-image: url("/Myfit-Machicado/src/images/Promo1.jpg");
-            }
-        }
-
-        @include mqs(sm1, sm2) {
-            background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
-
-            @keyframes promos-inicio {
-                0% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                23% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                25% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                48% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                50% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                73% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                75% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                98% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                100% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-            }
-        }
-
-        @include mqs(mm1, mm2) {
-            background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
-
-            @keyframes promos-inicio {
-                0% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                23% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                25% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                48% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                50% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                73% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                75% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                98% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                100% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-            }
-        }
-
-        @include mqs(tab1, tab2) {
-            background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
-
-            @keyframes promos-inicio {
-                0% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                23% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
-
-                25% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                48% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo2.jpg');
-                }
-
-                50% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                73% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo3.jpg');
-                }
-
-                75% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                98% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/promo4.jpg');
-                }
-
-                100% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/Promo1.jpg');
-                }
+                background-image: url("/Myfit-Machicado/src/images/Promo1.webp");
             }
         }
 

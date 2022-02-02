@@ -150,19 +150,7 @@
             }
 
             .profe1 {
-                background-image: url("/Myfit-Machicado/src/images/A.jpg");
-
-                @include mqs(sm1, sm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/A.jpg');
-                }
-
-                @include mqs(mm1, mm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/A.jpg');
-                }
-
-                @include mqs(tab1, tab2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/A.jpg');
-                }
+                background-image: url("/Myfit-Machicado/src/images/A.webp");
             }
 
             .profe2 {
@@ -184,37 +172,13 @@
             }
 
             .profe3 {
-                background-image: url("/Myfit-Machicado/src/images/C.jpg");
+                background-image: url("/Myfit-Machicado/src/images/C.webp");
                 background-position-y: inherit;
-
-                @include mqs(sm1, sm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/C.jpg');
-                }
-
-                @include mqs(mm1, mm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/C.jpg');
-                }
-
-                @include mqs(tab1, tab2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/C.jpg');
-                }
             }
 
             .profe4 {
-                background-image: url("/Myfit-Machicado/src/images/D.jpg");
+                background-image: url("/Myfit-Machicado/src/images/D.webp");
                 background-position-y: inherit;
-
-                @include mqs(sm1, sm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/D.jpg');
-                }
-
-                @include mqs(mm1, mm2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/D.jpg');
-                }
-
-                @include mqs(tab1, tab2) {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/D.jpg');
-                }
             }
 
             .panel-bio {
