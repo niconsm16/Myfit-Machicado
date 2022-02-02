@@ -82,7 +82,7 @@
                     left: -10%;
                     justify-content: space-between;
                     align-items: center;
-                    width: 140%;
+                    width: 130%;
                     background-color: black;
                     border-radius: 9px;
                     box-shadow: 6px ​6px 22px 1px rgba(0, 0, 0, 0.71);
@@ -130,7 +130,7 @@
 
                     @include mqs(4k1, 4k2) {
                         top: 60%;
-                        width: 90%;
+                        width: 75%;
                     }
                 }
 
