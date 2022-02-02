@@ -2,11 +2,11 @@
     "short_name": "My Fit",
     "name": "My Fit Gimnasio",
     "icons": [{
-        "src": "/src/images/maskable_icon_x192.png",
+        "src": "/Myfit-Machicado/src/images/maskable_icon_x192.png",
         "type": "image/png",
         "sizes": "192x192"
     }, {
-        "src": "/src/images/maskable_icon_x512.png",
+        "src": "/Myfit-Machicado/src/images/maskable_icon_x512.png",
         "type": "image/png",
         "sizes": "512x512",
         "purpose": "any maskable"
