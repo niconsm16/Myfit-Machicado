@@ -35,11 +35,11 @@ nav {
                 -o-border-radius: 16px;
 
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     display: none;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     vertical-align: super;
                     font-size: 1em;
                 }
@@ -61,11 +61,11 @@ nav {
                     text-decoration-line: none;
                     font-size: 1.1em;
 
-                    @media screen and (max-width: 320px) {
+                    @include mqs(sm1, sm2) {
                         font-size: 1.1em;
                     }
 
-                    @media screen and (min-width: 321px) and (max-width: 570px) {
+                    @include mqs(mm1, mm2) {
                         font-size: 1.25em;
                     }
                 }
@@ -73,25 +73,25 @@ nav {
 
 
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     font-size: 2em;
                 }
             }
 
 
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 font-size: 0.6em;
             }
 
-            @media screen and (min-width: 321px) and (max-width: 570px) {
+            @include mqs(mm1, mm2) {
                 font-size: 0.6em;
             }
 
 
         }
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -100,7 +100,7 @@ nav {
             height: 1em;
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -109,7 +109,7 @@ nav {
             height: 1.2em;
         }
 
-        @media screen and (min-width: 2560px) {
+        @include mqs(4k1, 4k2) {
             height: 3.5em;
         }
 

@@ -1,0 +1,5 @@
+@mixin mqs ($mq1, $mq2) {
+    @media screen and (min-width: map-get($mquery, $mq1)) and (max-width: map-get($mquery, $mq2)) {
+        @content;
+    }
+}

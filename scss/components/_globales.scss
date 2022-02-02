@@ -73,11 +73,11 @@ body {
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @include mqs(sm1, sm2) {
     display: none;
   }
 
-  @media screen and (min-width: 321px) and (max-width: 570px) {
+  @include mqs(mm1, mm2) {
     display: none;
   }
 }
@@ -99,7 +99,7 @@ h4 {
 .marquee {
   display: none;
 
-  @media screen and (max-width: 320px) {
+  @include mqs(sm1, sm2) {
     display: block;
     position: fixed;
     bottom: 1em;
@@ -152,7 +152,7 @@ h4 {
 
   }
 
-  @media screen and (min-width: 321px) and (max-width: 570px) {
+  @include mqs(mm1, mm2) {
     display: block;
     position: fixed;
     bottom: 1em;

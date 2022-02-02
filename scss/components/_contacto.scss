@@ -8,15 +8,15 @@ main {
         .titulo-contacto {
             font-size: 2em;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 font-size: 1em;
             }
 
-            @media screen and (min-width: 321px) and (max-width: 570px) {
+            @include mqs(mm1, mm2) {
                 font-size: 1.5em;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 font-size: 4.5em;
             }
         }
@@ -25,21 +25,21 @@ main {
             font-size: 1em;
             padding: 0.5em 0;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 font-size: 0.7em;
                 padding: 0.4em 1.5em;
             }
 
-            @media screen and (min-width: 321px) and (max-width: 570px) {
+            @include mqs(mm1, mm2) {
                 font-size: 0.7em;
                 padding: 0.5em 1.5em;
             }
 
-            @media screen and (min-width: 571px) and (max-width: 960px) {
+            @include mqs(tab1, tab2) {
                 padding: 0.5em 1.5em;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 font-size: 2.2em;
                 padding: 0.5em 1.5em;
             }
@@ -49,22 +49,22 @@ main {
             width: 21.625em;
             padding: 1.5rem 0 1rem 0;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 width: 11.625em;
                 padding: 1.5rem 0;
             }
 
-            @media screen and (min-width: 321px) and (max-width: 570px) {
+            @include mqs(mm1, mm2) {
                 width: 15.625em;
                 padding: 1.5rem 0;
             }
 
-            @media screen and (min-width: 571px) and (max-width: 960px) {
+            @include mqs(tab1, tab2) {
                 width: 16.625em;
                 padding: 1.5rem 0;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 width: 50.625em;
                 padding: 2.5rem 0;
             }
@@ -86,7 +86,7 @@ main {
                 width: 1rem;
                 margin: 0 0.4rem 0 0;
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     width: 2rem;
                 }
             }
@@ -101,20 +101,20 @@ main {
                     align-items: center;
                     justify-content: center;
 
-                    @media screen and (max-width: 320px) {
+                    @include mqs(sm1, sm2) {
                         font-size: 0.6em;
                     }
 
-                    @media only screen and (min-width: 2560px) {
+                    @include mqs(4k1, 4k2) {
                         font-size: 2.0em;
                     }
                 }
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     font-size: 0.8em;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     font-size: 3.2em;
                     padding: 0.5rem 0;
                 }
@@ -138,20 +138,20 @@ main {
                     background-color: white;
                 }
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     height: 27px;
                     width: 65%;
                 }
 
-                @media screen and (min-width: 321px) and (max-width: 570px) {
+                @include mqs(mm1, mm2) {
                     width: 65%;
                 }
 
-                @media screen and (min-width: 571px) and (max-width: 960px) {
+                @include mqs(tab1, tab2) {
                     width: 55%;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     height: 4.5rem;
                     width: 54%;
                     font-size: 1.8em;
@@ -176,19 +176,19 @@ main {
                     background-color: white;
                 }
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     width: 65%;
                 }
 
-                @media screen and (min-width: 321px) and (max-width: 570px) {
+                @include mqs(mm1, mm2) {
                     width: 65%;
                 }
 
-                @media screen and (min-width: 571px) and (max-width: 960px) {
+                @include mqs(tab1, tab2) {
                     width: 55%;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     height: 19rem;
                     width: 54%;
                     font-size: 1.8em;
@@ -216,11 +216,11 @@ main {
                     border-color: $verde;
                 }
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     height: 35px;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     height: 80px;
                     width: 15%;
                     font-size: 1.88em;

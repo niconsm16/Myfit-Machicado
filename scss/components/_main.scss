@@ -6,21 +6,21 @@ main {
     margin-right: 8.125em;
     box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
 
-    @media screen and (max-width: 320px) {
+    @include mqs(sm1, sm2) {
         background-color: black;
         margin-left: 1em;
         margin-right: 1em;
         box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
     }
 
-    @media screen and (min-width: 321px) and (max-width: 570px) {
+    @include mqs(mm1, mm2) {
         background-color: black;
         margin-left: 1em;
         margin-right: 1em;
         box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
     }
 
-    @media screen and (min-width: 571px) and (max-width: 960px) {
+    @include mqs(tab1, tab2) {
         background-color: black;
         margin-left: 3em;
         margin-right: 3em;

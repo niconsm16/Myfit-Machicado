@@ -32,12 +32,12 @@
             color: $verde;
             font-size: 3.75em;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 color: $verde;
                 font-size: 1.75em;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 font-size: 7.75em;
             }
         }
@@ -45,11 +45,11 @@
         h3 {
             font-size: 1.563em;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 font-size: 1.263em;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 font-size: 2.263em;
             }
         }
@@ -57,11 +57,11 @@
         h4 {
             font-size: 1.125em;
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 font-size: 0.925em;
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 font-size: 1.925em;
             }
         }
@@ -70,22 +70,22 @@
             background-color: rgba(0, 0, 0, 0.02);
         }
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background-color: none;
             background-blend-mode: normal;
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background-color: none;
             background-blend-mode: normal;
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(tab1, tab2) {
             background-color: none;
             background-blend-mode: normal;
         }
 
-        @media only screen and (min-width: 2560px) {
+        @include mqs(4k1, 4k2) {
             height: 25.675em;
         }
 
@@ -95,15 +95,19 @@
         justify-content: start;
         background-image: url("/Myfit-Machicado/src/images/box.jpg");
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
+            justify-content: center;
+            text-align: center;
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(tab1, tab2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
         }
     }
@@ -114,15 +118,19 @@
         text-align: right;
         background-position-y: 36%;
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(4k1, 4k2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
         }
     }
@@ -131,15 +139,19 @@
         justify-content: start;
         background-image: url("/Myfit-Machicado/src/images/gap.jpg");
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(tab1, tab2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
         }
     }
@@ -150,22 +162,26 @@
         text-align: right;
         background-position-y: 16%;
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
+            justify-content: center;
+            text-align: center
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(tab1, tab2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
         }
 
 
     }
 
-    @media only screen and (min-width: 2560px) {
+    @include mqs(4k1, 4k2) {
         height: 100vh;
     }
 }

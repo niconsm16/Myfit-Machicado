@@ -1,4 +1,5 @@
 /* /////////////////////////// Footer /////////////////////////// */
+
 footer {
     background-color: black;
     padding-top: 2.063em;
@@ -23,7 +24,7 @@ footer {
                 vertical-align: text-bottom;
                 padding-right: 0.188em;
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     transform: scale(2.5);
                     padding-right: 0.8rem;
                     padding-bottom: 0.4rem;
@@ -64,46 +65,26 @@ footer {
         }
     }
 
-    @media screen and (max-width: 320px) {
-        background-color: black;
-        padding-top: 2.063em;
+    @include mqs(sm1, sm2) {
         padding-bottom: 3.063em;
         margin-left: 1.35em;
         margin-right: 1.35em;
-        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
-        font-family: $asap;
-        font-size: 0.75em;
-        text-align: center;
     }
 
-    @media screen and (min-width: 321px) and (max-width: 570px) {
-        background-color: black;
-        padding-top: 2.063em;
+    @include mqs(mm1, mm2) {
         padding-bottom: 5.063em;
         margin-left: 1.35em;
         margin-right: 1.35em;
-        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
-        font-family: $asap;
-        font-size: 0.75em;
-        text-align: center;
     }
 
-    @media screen and (min-width: 571px) and (max-width: 960px) {
-        background-color: black;
-        padding-top: 2.063em;
-        padding-bottom: 2.063em;
+    @include mqs(tab1, tab2) {
         margin-left: 3.98em;
         margin-right: 3.98em;
-        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.8);
-        font-family: var(--asap);
-        font-size: 0.75em;
-        text-align: center;
     }
 
-    @media only screen and (min-width: 2560px) {
+    @include mqs(4k1, 4k2) {
         font-size: 2em;
         margin-left: 4em;
         margin-right: 4em;
     }
-
 }

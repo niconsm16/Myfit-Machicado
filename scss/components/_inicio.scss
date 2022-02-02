@@ -58,7 +58,7 @@ main {
             }
         }
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
 
             @keyframes promos-inicio {
@@ -100,7 +100,7 @@ main {
             }
         }
 
-        @media screen and (min-width: 321px) and (max-width: 570px) {
+        @include mqs(mm1, mm2) {
             background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
 
             @keyframes promos-inicio {
@@ -142,7 +142,7 @@ main {
             }
         }
 
-        @media screen and (min-width: 571px) and (max-width: 960px) {
+        @include mqs(tab1, tab2) {
             background: url('/Myfit-Machicado/src/images/mobile/FondoInicio.jpg') center no-repeat;
 
             @keyframes promos-inicio {
@@ -184,7 +184,7 @@ main {
             }
         }
 
-        @media only screen and (min-width: 2560px) {
+        @include mqs(4k1, 4k2) {
             height: 92vh;
         }
 

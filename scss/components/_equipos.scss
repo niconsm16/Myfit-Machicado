@@ -51,15 +51,15 @@
                 color: $verde;
                 font-size: 3em;
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     font-size: 2em;
                 }
 
-                @media screen and (min-width: 321px) and (max-width: 570px) {
+                @include mqs(mm1, mm2) {
                     font-size: 2em;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     font-size: 7em;
                 }
             }
@@ -69,29 +69,29 @@
                 font-size: 1.75em;
                 padding-top: 1.25em;
 
-                @media screen and (max-width: 320px) {
+                @include mqs(sm1, sm2) {
                     font-size: 1.1em;
                     padding-top: 1.25em;
                 }
 
-                @media screen and (min-width: 321px) and (max-width: 570px) {
+                @include mqs(mm1, mm2) {
                     font-size: 1.5em;
                     padding-top: 1.25em;
                 }
 
-                @media only screen and (min-width: 2560px) {
+                @include mqs(4k1, 4k2) {
                     font-size: 3.75em;
                     padding-top: 1.25em;
                 }
             }
 
-            @media screen and (max-width: 320px) {
+            @include mqs(sm1, sm2) {
                 width: 45%;
                 height: 100%;
                 padding: 0 2%;
             }
 
-            @media screen and (min-width: 321px) and (max-width: 570px) {
+            @include mqs(mm1, mm2) {
                 display: grid;
                 align-content: center;
                 background-color: rgba(0, 0, 0, 0.5);
@@ -120,7 +120,7 @@
                 }
             }
 
-            @media screen and (min-width: 571px) and (max-width: 960px) {
+            @include mqs(tab1, tab2) {
                 @keyframes carrusel-equipos {
                     0% {
                         background-image: url('/Myfit-Machicado/src/images/mobile/equipos.jpg');
@@ -140,13 +140,13 @@
                 }
             }
 
-            @media only screen and (min-width: 2560px) {
+            @include mqs(4k1, 4k2) {
                 width: 20%;
                 padding: 0 5%;
             }
         }
 
-        @media screen and (max-width: 320px) {
+        @include mqs(sm1, sm2) {
             display: flex;
             justify-content: end;
             align-items: center;
@@ -177,10 +177,5 @@
                 }
             }
         }
-
-
     }
-
-
-
 }
