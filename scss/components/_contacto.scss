@@ -224,8 +224,8 @@ main {
 
                 &:hover {
                     background-color: white;
-                    color: $verde;
-                    border-color: $verde;
+                    color: $verde2;
+                    border-color: $verde2;
                 }
 
                 @include mqs(sm1, sm2) {

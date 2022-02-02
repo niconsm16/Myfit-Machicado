@@ -1816,8 +1816,8 @@ main #contacto img {
 }
 .contact_form ul li button:hover {
   background-color: white;
-  color: #70D70C;
-  border-color: #70D70C;
+  color: #00d800;
+  border-color: #00d800;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .contact_form ul li button {
