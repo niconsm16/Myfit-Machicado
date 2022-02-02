@@ -98,13 +98,17 @@
         @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
             justify-content: center;
             text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(tab1, tab2) {
@@ -121,13 +125,17 @@
         @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(4k1, 4k2) {
@@ -142,13 +150,17 @@
         @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(tab1, tab2) {
@@ -165,13 +177,17 @@
         @include mqs(sm1, sm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(mm1, mm2) {
             background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
             justify-content: center;
-            text-align: center
+            text-align: center;
+            background-color: rgba(0, 0, 0, 35%);
+            background-blend-mode: color;
         }
 
         @include mqs(tab1, tab2) {
