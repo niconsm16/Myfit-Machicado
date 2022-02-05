@@ -207,7 +207,7 @@
                                 }
 
                                 @include mqs(4k1, 4k2) {
-                                    font-size: 2.5em;
+                                    font-size: 4.5em;
                                 }
                             }
 
@@ -218,6 +218,7 @@
                                 @include mqs(sm1, mm2) {
                                     font-size: 0.6em;
                                     line-height: 1.3em;
+                                    padding: 0em;
                                 }
 
                                 @include mqs(tab1, tab2) {
@@ -225,7 +226,7 @@
                                 }
 
                                 @include mqs(4k1, 4k2) {
-                                    font-size: 2em;
+                                    font-size: 4em;
                                 }
                             }
                         }
@@ -237,6 +238,10 @@
                         }
                     }
 
+                    @include mqs(4k1, 4k2) {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
 
                 .biodown {
@@ -272,6 +277,11 @@
 
                 @include mqs(tab1, tab2) {
                     background-image: url('/Myfit-Machicado/src/images/mobile/B.jpg');
+                }
+
+                @include mqs(4k1, 4k2) {
+                    background-size: 222%;
+                    background-position-y: -80rem;
                 }
             }
 
