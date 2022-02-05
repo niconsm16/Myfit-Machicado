@@ -1351,17 +1351,7 @@ main #inicio .promos {
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
 }
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #quienessomos .profes-container .profes .profe .panel-bio .bio .links a svg,
-#quienessomos .profes-container .profes .profe .panel-bio .bio-b .links a svg {
-    transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 570px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio .links a svg,
 #quienessomos .profes-container .profes .profe .panel-bio .bio-b .links a svg {
     transform: scale(0.8);
@@ -1420,13 +1410,7 @@ main #inicio .promos {
 #quienessomos .profes-container .profes .profe .panel-bio .bio-b div h3 {
   color: #70D70C;
 }
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #quienessomos .profes-container .profes .profe .panel-bio .bio div h3,
-#quienessomos .profes-container .profes .profe .panel-bio .bio-b div h3 {
-    font-size: 0.8em;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 570px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio div h3,
 #quienessomos .profes-container .profes .profe .panel-bio .bio-b div h3 {
     font-size: 0.8em;
@@ -1443,13 +1427,7 @@ main #inicio .promos {
   color: white;
   padding: 1em 0;
 }
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #quienessomos .profes-container .profes .profe .panel-bio .bio div p,
-#quienessomos .profes-container .profes .profe .panel-bio .bio-b div p {
-    font-size: 0.6em;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 570px) {
+@media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio div p,
 #quienessomos .profes-container .profes .profe .panel-bio .bio-b div p {
     font-size: 0.6em;
@@ -1473,22 +1451,7 @@ main #inicio .promos {
   background-color: white;
 }
 #quienessomos .profes-container .profes .profe1 {
-  animation: profe1 10s ease 0.1s infinite;
-  -webkit-animation: profeseq 10s ease 0.1s infinite;
-}
-@keyframes profeseq {
-  0% {
-    background-image: url("/Myfit-Machicado/src/images/equipos.webp");
-  }
-  40% {
-    background-image: url("/Myfit-Machicado/src/images/NombreA.webp");
-  }
-  80% {
-    background-image: url("/Myfit-Machicado/src/images/NombreA.webp");
-  }
-  100% {
-    background-image: url("/Myfit-Machicado/src/images/equipos.webp");
-  }
+  background-image: url("/Myfit-Machicado/src/images/A.jpg");
 }
 #quienessomos .profes-container .profes .profe2 {
   background-image: url("/Myfit-Machicado/src/images/B.jpg");
