@@ -1477,7 +1477,22 @@ main #inicio .promos {
   background-color: black;
 }
 #quienessomos .profes-container .profes .profe1 {
-  background-image: url("/Myfit-Machicado/src/images/A.webp");
+  animation: profe1 10s ease 0.1s infinite;
+  -webkit-animation: profeseq 10s ease 0.1s infinite;
+}
+@keyframes profeseq {
+  0% {
+    background-image: url("/Myfit-Machicado/src/images/equipos.webp");
+  }
+  40% {
+    background-image: url("/Myfit-Machicado/src/images/NombreA.webp");
+  }
+  80% {
+    background-image: url("/Myfit-Machicado/src/images/NombreA.webp");
+  }
+  100% {
+    background-image: url("/Myfit-Machicado/src/images/equipos.webp");
+  }
 }
 #quienessomos .profes-container .profes .profe2 {
   background-image: url("/Myfit-Machicado/src/images/B.jpg");
