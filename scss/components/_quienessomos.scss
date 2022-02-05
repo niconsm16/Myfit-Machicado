@@ -78,6 +78,7 @@
 
                 .panel-bio {
                     display: flex;
+                    flex-direction: column;
                     position: relative;
                     left: 0%;
                     justify-content: space-between;
@@ -140,8 +141,9 @@
 
                     .bio {
                         position: absolute;
-                        width: 30%;
-                        padding-right: 0em;
+                        width: 1000%;
+                        background: rgba(0, 0, 0, 45%);
+                        bottom: 0;
                     }
 
                     .bio-b {
