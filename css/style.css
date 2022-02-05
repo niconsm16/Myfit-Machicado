@@ -1329,7 +1329,7 @@ main #inicio .promos {
 }
 #quienessomos .profes-container .profes .profe .panel-bio .bio {
   position: absolute;
-  width: 1000%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.45);
   bottom: 0;
 }
