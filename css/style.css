@@ -1269,7 +1269,8 @@ main #inicio .promos {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 101%;
+  height: 100%;
+  top: 0%;
   justify-content: space-between;
   align-items: center;
   width: 100%;
