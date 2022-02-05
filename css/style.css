@@ -1106,10 +1106,46 @@ main #inicio .promos {
     width: 45%;
     height: 100%;
     padding: 0 2%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 2560px) and (max-width: 8000px) {
+  #equipos .equiposFlex {
+    width: 20%;
+    padding: 0 5%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #equipos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0em;
+    overflow: hidden;
+    animation: carrusel-equipos 20s ease 0.1s infinite;
+    -webkit-animation: carrusel-equipos 20s ease 0.1s infinite;
+  }
+  @keyframes carrusel-equipos {
+    0% {
+      background-image: url("/Myfit-Machicado/src/images/equipos.webp");
+    }
+    33% {
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos2.jpg");
+    }
+    67% {
+      background-image: url("/Myfit-Machicado/src/images/mobile/equipos3.jpg");
+    }
+    100% {
+      background-image: url("/Myfit-Machicado/src/images/equipos.webp");
+    }
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
-  #equipos .equiposFlex .caja {
+  #equipos {
     display: grid;
     align-content: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -1135,41 +1171,6 @@ main #inicio .promos {
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
-  @keyframes carrusel-equipos {
-    0% {
-      background-image: url("/Myfit-Machicado/src/images/equipos.webp");
-    }
-    33% {
-      background-image: url("/Myfit-Machicado/src/images/mobile/equipos2.jpg");
-    }
-    67% {
-      background-image: url("/Myfit-Machicado/src/images/mobile/equipos3.jpg");
-    }
-    100% {
-      background-image: url("/Myfit-Machicado/src/images/equipos.webp");
-    }
-  }
-}
-@media screen and (min-width: 2560px) and (max-width: 8000px) {
-  #equipos .equiposFlex .caja {
-    width: 20%;
-    padding: 0 5%;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #equipos .equiposFlex {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    margin-top: 0em;
-    overflow: hidden;
-    animation: carrusel-equipos 20s ease 0.1s infinite;
-    -webkit-animation: carrusel-equipos 20s ease 0.1s infinite;
-  }
   @keyframes carrusel-equipos {
     0% {
       background-image: url("/Myfit-Machicado/src/images/equipos.webp");

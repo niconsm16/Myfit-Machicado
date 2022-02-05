@@ -89,92 +89,96 @@
                 width: 45%;
                 height: 100%;
                 padding: 0 2%;
-            }
-
-            @include mqs(mm1, mm2) {
-                display: grid;
-                align-content: center;
-                background-color: rgba(0, 0, 0, 0.5);
-                width: 30%;
-                height: 100%;
-                text-align: center;
-                padding: 0 8%;
-                font-family: $bigshoulders;
-
-                @keyframes carrusel-equipos {
-                    0% {
-                        background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                    }
-
-                    33% {
-                        background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
-                    }
-
-                    67% {
-                        background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
-                    }
-
-                    100% {
-                        background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                    }
-                }
-            }
-
-            @include mqs(tab1, tab2) {
-                @keyframes carrusel-equipos {
-                    0% {
-                        background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                    }
-
-                    33% {
-                        background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
-                    }
-
-                    67% {
-                        background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
-                    }
-
-                    100% {
-                        background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                    }
-                }
-            }
-
-            @include mqs(4k1, 4k2) {
-                width: 20%;
-                padding: 0 5%;
+                overflow: hidden;
             }
         }
 
-        @include mqs(sm1, sm2) {
-            display: flex;
-            justify-content: end;
-            align-items: center;
-            background-position: center;
-            background-size: cover;
-            width: 100%;
-            height: 100vh;
-            margin-top: 0em;
-            overflow: hidden;
-            animation: carrusel-equipos 20s ease .1s infinite;
-            -webkit-animation: carrusel-equipos 20s ease .1s infinite;
+        @include mqs(4k1, 4k2) {
+            width: 20%;
+            padding: 0 5%;
+        }
+    }
 
-            @keyframes carrusel-equipos {
-                0% {
-                    background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                }
 
-                33% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
-                }
 
-                67% {
-                    background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
-                }
 
-                100% {
-                    background-image: url('/Myfit-Machicado/src/images/equipos.webp');
-                }
+    @include mqs(sm1, sm2) {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        margin-top: 0em;
+        overflow: hidden;
+        animation: carrusel-equipos 20s ease .1s infinite;
+        -webkit-animation: carrusel-equipos 20s ease .1s infinite;
+
+        @keyframes carrusel-equipos {
+            0% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
+            }
+
+            33% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
+            }
+
+            67% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
+            }
+
+            100% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
+            }
+        }
+    }
+
+    @include mqs(mm1, mm2) {
+        display: grid;
+        align-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        padding: 0 8%;
+        font-family: $bigshoulders;
+
+        @keyframes carrusel-equipos {
+            0% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
+            }
+
+            33% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
+            }
+
+            67% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
+            }
+
+            100% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
+            }
+        }
+    }
+
+    @include mqs(tab1, tab2) {
+        @keyframes carrusel-equipos {
+            0% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
+            }
+
+            33% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos2.jpg');
+            }
+
+            67% {
+                background-image: url('/Myfit-Machicado/src/images/mobile/equipos3.jpg');
+            }
+
+            100% {
+                background-image: url('/Myfit-Machicado/src/images/equipos.webp');
             }
         }
     }
