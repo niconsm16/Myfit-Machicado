@@ -209,7 +209,7 @@
 
                             p {
                                 color: white;
-                                padding: 1em 0;
+                                padding: 1em 0.5em;
 
                                 @include mqs(sm1, mm2) {
                                     font-size: 0.6em;
@@ -245,7 +245,7 @@
 
 
             .profe1 {
-                background-image: url("/Myfit-Machicado/src/images/A.jpg");
+                background-image: url("/Myfit-Machicado/src/images/A.webp");
             }
 
             .profe2 {

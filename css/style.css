@@ -1398,7 +1398,7 @@ main #inicio .promos {
 }
 #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
   color: white;
-  padding: 1em 0;
+  padding: 1em 0.5em;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
@@ -1421,7 +1421,7 @@ main #inicio .promos {
   background-color: white;
 }
 #quienessomos .profes-container .profes .profe1 {
-  background-image: url("/Myfit-Machicado/src/images/A.jpg");
+  background-image: url("/Myfit-Machicado/src/images/A.webp");
 }
 #quienessomos .profes-container .profes .profe2 {
   background-image: url("/Myfit-Machicado/src/images/B.jpg");
