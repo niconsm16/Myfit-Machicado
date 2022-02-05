@@ -213,10 +213,15 @@
 
                             p {
                                 color: white;
-                                padding: 1em 0.5emg;
+                                padding: 1em 0.5em;
 
                                 @include mqs(sm1, mm2) {
                                     font-size: 0.6em;
+                                    line-height: 1.3em;
+                                }
+
+                                @include mqs(tab1, tab2) {
+                                    padding: 0 0.8em;
                                 }
 
                                 @include mqs(4k1, 4k2) {

@@ -1057,7 +1057,7 @@ main #inicio .promos {
   text-align: center;
   padding: 0 2%;
   font-family: "Big Shoulders Text", cursive;
-  overflow: overlay;
+  overflow: hidden;
 }
 #equipos .equiposFlex .caja h2 {
   color: #70D70C;
@@ -1401,11 +1401,17 @@ main #inicio .promos {
 }
 #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
   color: white;
-  padding: 1em 0.5emg;
+  padding: 1em 0.5em;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
     font-size: 0.6em;
+    line-height: 1.3em;
+  }
+}
+@media screen and (min-width: 571px) and (max-width: 960px) {
+  #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
+    padding: 0 0.8em;
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
