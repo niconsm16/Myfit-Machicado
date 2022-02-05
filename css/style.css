@@ -1205,6 +1205,8 @@ main #inicio .promos {
   position: absolute;
   display: flex;
   align-self: center;
+  justify-content: center;
+  width: 100%;
   padding: 38% 8%;
   -webkit-text-stroke: 2px #70D70C;
   transition: all 2s;
@@ -1218,6 +1220,7 @@ main #inicio .promos {
   -webkit-text-stroke: 2px black;
   opacity: 0;
   z-index: 0;
+  background-color: 0, 0, 0, 80%;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #quienessomos .profes-container h2 {
@@ -1398,7 +1401,7 @@ main #inicio .promos {
 }
 #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
   color: white;
-  padding: 1em 0.5em;
+  padding: 1em 0.5emg;
 }
 @media screen and (min-width: 0px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe .panel-bio .bio div p {
