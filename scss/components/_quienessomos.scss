@@ -251,9 +251,9 @@
                     bottom: -1%;
                 }
 
-                &:hover {
-                    background-color: white;
-                }
+                // &:hover {
+                //     background-color: white;
+                // }
             }
 
 
@@ -262,6 +262,11 @@
 
             .profe1 {
                 background-image: url("/Myfit-Machicado/src/images/A.jpg");
+
+                &:hover {
+                    background-color: black;
+                    background-blend-mode: luminosity;
+                }
             }
 
             .profe2 {
