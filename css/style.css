@@ -1274,7 +1274,6 @@ main #inicio .promos {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: black;
   border-radius: 9px;
   box-shadow: 6px ​6px 22px 1px rgba(0, 0, 0, 0.71);
   padding: 0%;
@@ -1471,7 +1470,7 @@ main #inicio .promos {
   bottom: -1%;
 }
 #quienessomos .profes-container .profes .profe:hover {
-  background-color: black;
+  background-color: white;
 }
 #quienessomos .profes-container .profes .profe1 {
   animation: profe1 10s ease 0.1s infinite;
