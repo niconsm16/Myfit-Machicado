@@ -1447,12 +1447,11 @@ main #inicio .promos {
   top: 0;
   bottom: -1%;
 }
+#quienessomos .profes-container .profes .profe:hover {
+  background-color: white;
+}
 #quienessomos .profes-container .profes .profe1 {
   background-image: url("/Myfit-Machicado/src/images/A.jpg");
-}
-#quienessomos .profes-container .profes .profe1:hover {
-  background-color: black;
-  background-blend-mode: luminosity;
 }
 #quienessomos .profes-container .profes .profe2 {
   background-image: url("/Myfit-Machicado/src/images/B.jpg");
