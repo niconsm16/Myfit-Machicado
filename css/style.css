@@ -1269,7 +1269,7 @@ main #inicio .promos {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 0%;
+  top: 101%;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -1465,13 +1465,9 @@ main #inicio .promos {
 #quienessomos .profes-container .profes .profe .panel-bio .bio-b a svg {
   fill: #70D70C;
 }
-#quienessomos .profes-container .profes .profe .bioder {
-  left: 0%;
-}
-@media screen and (min-width: 2560px) and (max-width: 8000px) {
-  #quienessomos .profes-container .profes .profe .bioder {
-    left: 6%;
-  }
+#quienessomos .profes-container .profes .profe .biodown {
+  top: 0;
+  bottom: -1%;
 }
 #quienessomos .profes-container .profes .profe:hover {
   background-color: black;

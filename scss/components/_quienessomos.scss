@@ -80,7 +80,7 @@
                     display: flex;
                     flex-direction: column;
                     position: relative;
-                    left: 0%;
+                    top: 101%;
                     justify-content: space-between;
                     align-items: center;
                     width: 100%;
@@ -262,12 +262,9 @@
 
                 }
 
-                .bioder {
-                    left: 0%;
-
-                    @include mqs(4k1, 4k2) {
-                        left: 6%;
-                    }
+                .biodown {
+                    top: 0;
+                    bottom: -1%;
                 }
 
                 &:hover {
