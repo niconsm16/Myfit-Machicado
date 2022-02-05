@@ -121,14 +121,6 @@
                         z-index: -1;
                     }
 
-                    @include mqs(sm1, sm2) {
-                        top: 20%;
-                    }
-
-                    @include mqs(mm1, mm2) {
-                        top: 34%;
-                    }
-
                     @include mqs(4k1, 4k2) {
                         top: 60%;
                         width: 75%;
@@ -295,7 +287,7 @@
             div {
                 img {
                     border-radius: 8px;
-                    height: 18em;
+                    height: 100%;
                     width: 100%;
                     object-fit: cover;
                 }

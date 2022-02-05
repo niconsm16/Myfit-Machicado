@@ -1307,16 +1307,6 @@ main #inicio .promos {
   top: 0%;
   z-index: -1;
 }
-@media screen and (min-width: 0px) and (max-width: 320px) {
-  #quienessomos .profes-container .profes .profe .panel-bio {
-    top: 20%;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 570px) {
-  #quienessomos .profes-container .profes .profe .panel-bio {
-    top: 34%;
-  }
-}
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
   #quienessomos .profes-container .profes .profe .panel-bio {
     top: 60%;
@@ -1483,7 +1473,7 @@ main #inicio .promos {
 }
 #quienessomos .profes-container .profes div img {
   border-radius: 8px;
-  height: 18em;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
