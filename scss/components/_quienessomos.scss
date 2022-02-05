@@ -61,7 +61,7 @@
 
             .profe {
                 width: 100%;
-                background-color: transparent;
+                background-color: black;
                 background-blend-mode: luminosity;
                 background-size: cover;
                 background-position: center;
@@ -79,14 +79,14 @@
                 .panel-bio {
                     display: flex;
                     position: relative;
-                    left: -10%;
+                    left: 0%;
                     justify-content: space-between;
                     align-items: center;
-                    width: 130%;
+                    width: 100%;
                     background-color: black;
                     border-radius: 9px;
                     box-shadow: 6px ​6px 22px 1px rgba(0, 0, 0, 0.71);
-                    padding: 5% 5%;
+                    padding: 0%;
                     opacity: 0;
                     z-index: 0;
                     transition: all 0.6s ease-in;
@@ -139,15 +139,14 @@
                     }
 
                     .bio {
-                        text-align: left;
+                        position: absolute;
                         width: 30%;
-                        padding-right: 1em;
+                        padding-right: 0em;
                     }
 
                     .bio-b {
-                        text-align: right;
+                        position: absolute;
                         width: 30%;
-                        padding-left: 1em;
                     }
 
                     .bio,
@@ -261,7 +260,7 @@
                 }
 
                 .bioder {
-                    left: -44%;
+                    left: 0%;
 
                     @include mqs(4k1, 4k2) {
                         left: 6%;
