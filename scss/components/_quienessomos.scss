@@ -137,15 +137,7 @@
                         background: rgba(0, 0, 0, 45%);
                         bottom: 0;
                         padding: 0.5rem 0;
-                    }
 
-                    .bio-b {
-                        position: absolute;
-                        width: 30%;
-                    }
-
-                    .bio,
-                    .bio-b {
                         .links {
                             letter-spacing: 1.0em;
                             line-height: 2em;
@@ -287,7 +279,6 @@
             div {
                 img {
                     border-radius: 8px;
-                    height: 100%;
                     width: 100%;
                     object-fit: cover;
                 }
