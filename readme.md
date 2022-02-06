@@ -18,6 +18,8 @@ Entrega del desafío final de <a href="https://www.coderhouse.com/" alt="Coderho
  
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=niconsm16&show_icons=true&locale=en&layout=compact" alt="niconsm16" />
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=niconsm16)](https://github.com/niconsm16/github-readme-stats)
+
 <!-- Links -->
 [source]: https://github.com/niconsm16/Myfit-Machicado
 [web]: https://niconsm16.github.io/Myfit-Machicado/index.html/
