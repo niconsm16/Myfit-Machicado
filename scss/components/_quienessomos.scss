@@ -241,12 +241,19 @@
                     @include mqs(4k1, 4k2) {
                         width: 100%;
                         height: auto;
+                        position: relative;
+                        bottom: 100%;
                     }
                 }
 
                 .biodown {
                     top: 0;
                     bottom: -1%;
+
+                    @include mqs(4k1, 4k2) {
+                        position: relative;
+                        bottom: 0%;
+                    }
                 }
 
                 &:hover {
@@ -281,7 +288,7 @@
 
                 @include mqs(4k1, 4k2) {
                     background-size: 222%;
-                    background-position-y: -80rem;
+                    background-position-y: center;
                 }
             }
 
