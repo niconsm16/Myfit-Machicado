@@ -92,11 +92,6 @@
                 overflow: hidden;
             }
         }
-
-        @include mqs(4k1, 4k2) {
-            width: 20%;
-            padding: 0 5%;
-        }
     }
 
 
