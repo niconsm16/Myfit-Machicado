@@ -7,10 +7,10 @@
 ---
 
 Entrega del desafío final de:<br>
-Coderhouse <br>
+<a href="https://www.coderhouse.com/" alt="Coderhouse">Coderhouse</a> <br>
 como parte del programa de:<br>
 Desarrollo Web<br>
-Impartido por ellos en la comisión 24485<br>
+Comisión 24485<br>
  
 ---
 
