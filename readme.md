@@ -8,6 +8,7 @@
 
 Entrega del desafío final de <a href="https://www.coderhouse.com/" alt="Coderhouse">Coderhouse</a> como parte del programa de <b><i>Desarrollo Web</i></b> Comisión 24485
  
+ 
 ---
 
 ### Herramientas usadas en este proyecto:<br><br>
