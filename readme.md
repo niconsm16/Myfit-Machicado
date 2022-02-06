@@ -12,7 +12,11 @@ como parte del programa de:<br>
 Desarrollo Web<br>
 Impartido por ellos en la comisión 24485<br>
 
-<a href="https://discord.gg/niconsm#1951" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="niconsm#1951" height="30" width="40" /></a>
+
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=niconsm16&show_icons=true&locale=en&layout=compact" alt="niconsm16" />
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=niconsm16&show_icons=true&locale=en" alt="niconsm16" />
+ <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=niconsm16&" alt="niconsm16" />
+ 
 ---
 
 ### Herramientas usadas en este proyecto:<br><br>
