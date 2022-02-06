@@ -251,8 +251,8 @@
                     bottom: -1%;
 
                     @include mqs(4k1, 4k2) {
-                        position: relative;
-                        bottom: 0%;
+                        position: sticky;
+                        top: 100%;
                     }
                 }
 
