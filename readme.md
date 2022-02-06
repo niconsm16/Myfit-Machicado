@@ -11,11 +11,6 @@ Coderhouse <br>
 como parte del programa de:<br>
 Desarrollo Web<br>
 Impartido por ellos en la comisión 24485<br>
-
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=niconsm16&show_icons=true&locale=en&layout=compact" alt="niconsm16" />
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=niconsm16&show_icons=true&locale=en" alt="niconsm16" />
- <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=niconsm16&" alt="niconsm16" />
  
 ---
 
