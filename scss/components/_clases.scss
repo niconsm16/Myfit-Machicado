@@ -96,10 +96,10 @@
 
     .clase-1 {
         justify-content: start;
-        background-image: url("/Myfit-Machicado/src/images/box.webp");
+        background-image: url("./src/images/box.webp");
 
         @include mqs(sm1, sm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
+            background-image: url('./src/images/mobile/box.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -107,7 +107,7 @@
         }
 
         @include mqs(mm1, mm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
+            background-image: url('./src/images/mobile/box.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -115,18 +115,18 @@
         }
 
         @include mqs(tab1, tab2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/box.jpg');
+            background-image: url('./src/images/mobile/box.jpg');
         }
     }
 
     .clase-2 {
         justify-content: end;
-        background-image: url("/Myfit-Machicado/src/images/funcional.webp");
+        background-image: url("./src/images/funcional.webp");
         text-align: right;
         background-position-y: 36%;
 
         @include mqs(sm1, sm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
+            background-image: url('./src/images/mobile/funcional.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -134,7 +134,7 @@
         }
 
         @include mqs(mm1, mm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
+            background-image: url('./src/images/mobile/funcional.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -142,16 +142,16 @@
         }
 
         @include mqs(4k1, 4k2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/funcional.jpg');
+            background-image: url('./src/images/mobile/funcional.jpg');
         }
     }
 
     .clase-3 {
         justify-content: start;
-        background-image: url("/Myfit-Machicado/src/images/gap.webp");
+        background-image: url("./src/images/gap.webp");
 
         @include mqs(sm1, sm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
+            background-image: url('./src/images/mobile/gap.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -159,7 +159,7 @@
         }
 
         @include mqs(mm1, mm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
+            background-image: url('./src/images/mobile/gap.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -167,18 +167,18 @@
         }
 
         @include mqs(tab1, tab2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/gap.jpg');
+            background-image: url('./src/images/mobile/gap.jpg');
         }
     }
 
     .clase-4 {
         justify-content: end;
-        background-image: url("/Myfit-Machicado/src/images/latino.webp");
+        background-image: url("./src/images/latino.webp");
         text-align: right;
         background-position-y: 16%;
 
         @include mqs(sm1, sm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
+            background-image: url('./src/images/mobile/latino.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -186,7 +186,7 @@
         }
 
         @include mqs(mm1, mm2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
+            background-image: url('./src/images/mobile/latino.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -194,7 +194,7 @@
         }
 
         @include mqs(tab1, tab2) {
-            background-image: url('/Myfit-Machicado/src/images/mobile/latino.jpg');
+            background-image: url('./src/images/mobile/latino.jpg');
         }
 
 

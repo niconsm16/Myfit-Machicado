@@ -159,7 +159,7 @@
                 }
 
                 @include mqs(tab1, tab2) {
-                    content: url("/Myfit-Machicado/src/images/myfitlogo3.webp");
+                    content: url("./src/images/myfitlogo3.webp");
                 }
 
                 @include mqs(4k1, 4k2) {
@@ -352,7 +352,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-image: url('/Myfit-Machicado/src/images/fondo1.jpg');
+            background-image: url('./src/images/fondo1.jpg');
             background-size: cover;
             background-position: 0 -14em;
             background-color: rgba(255, 255, 255, 0.91);
