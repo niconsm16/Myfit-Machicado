@@ -96,10 +96,10 @@
 
     .clase-1 {
         justify-content: start;
-        background-image: url("./src/images/box.webp");
+        background-image: url("/src/images/box.webp");
 
         @include mqs(sm1, sm2) {
-            background-image: url('./src/images/mobile/box.jpg');
+            background-image: url('/src/images/mobile/box.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -107,7 +107,7 @@
         }
 
         @include mqs(mm1, mm2) {
-            background-image: url('./src/images/mobile/box.jpg');
+            background-image: url('/src/images/mobile/box.jpg');
             justify-content: center;
             text-align: center;
             background-color: rgba(0, 0, 0, 25%);
@@ -115,7 +115,7 @@
         }
 
         @include mqs(tab1, tab2) {
-            background-image: url('./src/images/mobile/box.jpg');
+            background-image: url("/src/images/mobile/box.jpg");
         }
     }
 

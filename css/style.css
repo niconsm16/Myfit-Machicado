@@ -900,11 +900,11 @@ main #inicio .promos {
 }
 #clases .clase-1 {
   justify-content: start;
-  background-image: url("./src/images/box.webp");
+  background-image: url("/src/images/box.webp");
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #clases .clase-1 {
-    background-image: url("./src/images/mobile/box.jpg");
+    background-image: url("/src/images/mobile/box.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -913,7 +913,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-1 {
-    background-image: url("./src/images/mobile/box.jpg");
+    background-image: url("/src/images/mobile/box.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -922,7 +922,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-1 {
-    background-image: url("./src/images/mobile/box.jpg");
+    background-image: url("/src/images/mobile/box.jpg");
   }
 }
 #clases .clase-2 {
