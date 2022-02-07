@@ -4,7 +4,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url("./src/images/FondoInicio.webp") center no-repeat;
+        background: url("../src/images/FondoInicio.webp") center no-repeat;
         background-size: cover;
         width: auto;
         height: 84vh;
@@ -22,39 +22,39 @@ main {
 
         @keyframes promos-inicio {
             0% {
-                background-image: url("./src/images/Promo1.webp");
+                background-image: url("../src/images/Promo1.webp");
             }
 
             23% {
-                background-image: url("./src/images/Promo1.webp");
+                background-image: url("../src/images/Promo1.webp");
             }
 
             25% {
-                background-image: url("./src/images/promo2.webp");
+                background-image: url("../src/images/promo2.webp");
             }
 
             48% {
-                background-image: url("./src/images/promo2.webp");
+                background-image: url("../src/images/promo2.webp");
             }
 
             50% {
-                background-image: url("./src/images/promo3.webp");
+                background-image: url("../src/images/promo3.webp");
             }
 
             73% {
-                background-image: url("./src/images/promo3.webp");
+                background-image: url("../src/images/promo3.webp");
             }
 
             75% {
-                background-image: url("./src/images/promo4.webp");
+                background-image: url("../src/images/promo4.webp");
             }
 
             98% {
-                background-image: url("./src/images/promo4.webp");
+                background-image: url("../src/images/promo4.webp");
             }
 
             100% {
-                background-image: url("./src/images/Promo1.webp");
+                background-image: url("../src/images/Promo1.webp");
             }
         }
 

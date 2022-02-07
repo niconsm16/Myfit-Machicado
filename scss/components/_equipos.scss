@@ -18,19 +18,19 @@
 
         @keyframes carrusel-equipos {
             0% {
-                background-image: url("./src/images/equipos.webp");
+                background-image: url("../src/images/equipos.webp");
             }
 
             33% {
-                background-image: url("./src/images/equipos2.webp");
+                background-image: url("../src/images/equipos2.webp");
             }
 
             67% {
-                background-image: url("./src/images/equipos3.webp");
+                background-image: url("../src/images/equipos3.webp");
             }
 
             100% {
-                background-image: url("./src/images/equipos.webp");
+                background-image: url("../src/images/equipos.webp");
             }
         }
 
@@ -112,19 +112,19 @@
 
         @keyframes carrusel-equipos {
             0% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
 
             33% {
-                background-image: url('./src/images/mobile/equipos2.jpg');
+                background-image: url("../src/images/mobile/equipos2.jpg");
             }
 
             67% {
-                background-image: url('./src/images/mobile/equipos3.jpg');
+                background-image: url("../src/images/mobile/equipos3.jpg");
             }
 
             100% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
         }
     }
@@ -141,19 +141,19 @@
 
         @keyframes carrusel-equipos {
             0% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
 
             33% {
-                background-image: url('./src/images/mobile/equipos2.jpg');
+                background-image: url("../src/images/mobile/equipos2.jpg");
             }
 
             67% {
-                background-image: url('./src/images/mobile/equipos3.jpg');
+                background-image: url("../src/images/mobile/equipos3.jpg");
             }
 
             100% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
         }
     }
@@ -161,19 +161,19 @@
     @include mqs(tab1, tab2) {
         @keyframes carrusel-equipos {
             0% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
 
             33% {
-                background-image: url('./src/images/mobile/equipos2.jpg');
+                background-image: url("../src/images/mobile/equipos2.jpg");
             }
 
             67% {
-                background-image: url('./src/images/mobile/equipos3.jpg');
+                background-image: url("../src/images/mobile/equipos3.jpg");
             }
 
             100% {
-                background-image: url('./src/images/equipos.webp');
+                background-image: url("../src/images/equipos.webp");
             }
         }
     }

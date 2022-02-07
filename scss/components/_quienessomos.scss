@@ -265,24 +265,24 @@
 
 
             .profe1 {
-                background-image: url("./src/images/A.webp");
+                background-image: url("../src/images/A.webp");
             }
 
             .profe2 {
-                background-image: url("./src/images/B.jpg");
+                background-image: url("../src/images/B.jpg");
                 background-size: auto;
                 background-position-y: 77rem;
 
                 @include mqs(sm1, sm2) {
-                    background-image: url('./src/images/mobile/B.jpg');
+                    background-image: url("../src/images/mobile/B.jpg");
                 }
 
                 @include mqs(mm1, mm2) {
-                    background-image: url('./src/images/mobile/B.jpg');
+                    background-image: url("../src/images/mobile/B.jpg");
                 }
 
                 @include mqs(tab1, tab2) {
-                    background-image: url('./src/images/mobile/B.jpg');
+                    background-image: url("../src/images/mobile/B.jpg");
                 }
 
                 @include mqs(4k1, 4k2) {
@@ -292,12 +292,12 @@
             }
 
             .profe3 {
-                background-image: url("./src/images/C.webp");
+                background-image: url("../src/images/C.webp");
                 background-position-y: inherit;
             }
 
             .profe4 {
-                background-image: url("./src/images/D.webp");
+                background-image: url("../src/images/D.webp");
                 background-position-y: inherit;
             }
 

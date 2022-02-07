@@ -365,7 +365,7 @@ h4 {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   .header-container .header-sin-menu .logo img {
-    content: url("./src/images/myfitlogo3.webp");
+    content: url("../src/images/myfitlogo3.webp");
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
@@ -559,7 +559,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("./src/images/fondo1.jpg");
+    background-image: url("../src/images/fondo1.jpg");
     background-size: cover;
     background-position: 0 -14em;
     background-color: rgba(255, 255, 255, 0.91);
@@ -701,7 +701,7 @@ main #inicio {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./src/images/FondoInicio.webp") center no-repeat;
+  background: url("../src/images/FondoInicio.webp") center no-repeat;
   background-size: cover;
   width: auto;
   height: 84vh;
@@ -718,31 +718,31 @@ main #inicio .promos {
 }
 @keyframes promos-inicio {
   0% {
-    background-image: url("./src/images/Promo1.webp");
+    background-image: url("../src/images/Promo1.webp");
   }
   23% {
-    background-image: url("./src/images/Promo1.webp");
+    background-image: url("../src/images/Promo1.webp");
   }
   25% {
-    background-image: url("./src/images/promo2.webp");
+    background-image: url("../src/images/promo2.webp");
   }
   48% {
-    background-image: url("./src/images/promo2.webp");
+    background-image: url("../src/images/promo2.webp");
   }
   50% {
-    background-image: url("./src/images/promo3.webp");
+    background-image: url("../src/images/promo3.webp");
   }
   73% {
-    background-image: url("./src/images/promo3.webp");
+    background-image: url("../src/images/promo3.webp");
   }
   75% {
-    background-image: url("./src/images/promo4.webp");
+    background-image: url("../src/images/promo4.webp");
   }
   98% {
-    background-image: url("./src/images/promo4.webp");
+    background-image: url("../src/images/promo4.webp");
   }
   100% {
-    background-image: url("./src/images/Promo1.webp");
+    background-image: url("../src/images/Promo1.webp");
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
@@ -900,11 +900,11 @@ main #inicio .promos {
 }
 #clases .clase-1 {
   justify-content: start;
-  background-image: url("/src/images/box.webp");
+  background-image: url("../src/images/box.webp");
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("../src/images/mobile/box.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -913,7 +913,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("../src/images/mobile/box.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -922,7 +922,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-1 {
-    background-image: url("/src/images/mobile/box.jpg");
+    background-image: url("../src/images/mobile/box.jpg");
   }
 }
 #clases .clase-2 {
@@ -942,7 +942,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-2 {
-    background-image: url("./src/images/mobile/funcional.jpg");
+    background-image: url("../src/images/mobile/funcional.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -951,16 +951,16 @@ main #inicio .promos {
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
   #clases .clase-2 {
-    background-image: url("./src/images/mobile/funcional.jpg");
+    background-image: url("../src/images/mobile/funcional.jpg");
   }
 }
 #clases .clase-3 {
   justify-content: start;
-  background-image: url("./src/images/gap.webp");
+  background-image: url("../src/images/gap.webp");
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #clases .clase-3 {
-    background-image: url("./src/images/mobile/gap.jpg");
+    background-image: url("../src/images/mobile/gap.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -969,7 +969,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-3 {
-    background-image: url("./src/images/mobile/gap.jpg");
+    background-image: url("../src/images/mobile/gap.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -978,18 +978,18 @@ main #inicio .promos {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-3 {
-    background-image: url("./src/images/mobile/gap.jpg");
+    background-image: url("../src/images/mobile/gap.jpg");
   }
 }
 #clases .clase-4 {
   justify-content: end;
-  background-image: url("./src/images/latino.webp");
+  background-image: url("../src/images/latino.webp");
   text-align: right;
   background-position-y: 16%;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #clases .clase-4 {
-    background-image: url("./src/images/mobile/latino.jpg");
+    background-image: url("../src/images/mobile/latino.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -998,7 +998,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #clases .clase-4 {
-    background-image: url("./src/images/mobile/latino.jpg");
+    background-image: url("../src/images/mobile/latino.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
@@ -1007,7 +1007,7 @@ main #inicio .promos {
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #clases .clase-4 {
-    background-image: url("./src/images/mobile/latino.jpg");
+    background-image: url("../src/images/mobile/latino.jpg");
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
@@ -1036,16 +1036,16 @@ main #inicio .promos {
 }
 @keyframes carrusel-equipos {
   0% {
-    background-image: url("./src/images/equipos.webp");
+    background-image: url("../src/images/equipos.webp");
   }
   33% {
-    background-image: url("./src/images/equipos2.webp");
+    background-image: url("../src/images/equipos2.webp");
   }
   67% {
-    background-image: url("./src/images/equipos3.webp");
+    background-image: url("../src/images/equipos3.webp");
   }
   100% {
-    background-image: url("./src/images/equipos.webp");
+    background-image: url("../src/images/equipos.webp");
   }
 }
 #equipos .equiposFlex .caja {
@@ -1125,16 +1125,16 @@ main #inicio .promos {
   }
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
     33% {
-      background-image: url("./src/images/mobile/equipos2.jpg");
+      background-image: url("../src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("./src/images/mobile/equipos3.jpg");
+      background-image: url("../src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
   }
 }
@@ -1151,32 +1151,32 @@ main #inicio .promos {
   }
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
     33% {
-      background-image: url("./src/images/mobile/equipos2.jpg");
+      background-image: url("../src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("./src/images/mobile/equipos3.jpg");
+      background-image: url("../src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   @keyframes carrusel-equipos {
     0% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
     33% {
-      background-image: url("./src/images/mobile/equipos2.jpg");
+      background-image: url("../src/images/mobile/equipos2.jpg");
     }
     67% {
-      background-image: url("./src/images/mobile/equipos3.jpg");
+      background-image: url("../src/images/mobile/equipos3.jpg");
     }
     100% {
-      background-image: url("./src/images/equipos.webp");
+      background-image: url("../src/images/equipos.webp");
     }
   }
 }
@@ -1439,26 +1439,26 @@ main #inicio .promos {
   background-color: white;
 }
 #quienessomos .profes-container .profes .profe1 {
-  background-image: url("./src/images/A.webp");
+  background-image: url("../src/images/A.webp");
 }
 #quienessomos .profes-container .profes .profe2 {
-  background-image: url("./src/images/B.jpg");
+  background-image: url("../src/images/B.jpg");
   background-size: auto;
   background-position-y: 77rem;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("./src/images/mobile/B.jpg");
+    background-image: url("../src/images/mobile/B.jpg");
   }
 }
 @media screen and (min-width: 321px) and (max-width: 570px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("./src/images/mobile/B.jpg");
+    background-image: url("../src/images/mobile/B.jpg");
   }
 }
 @media screen and (min-width: 571px) and (max-width: 960px) {
   #quienessomos .profes-container .profes .profe2 {
-    background-image: url("./src/images/mobile/B.jpg");
+    background-image: url("../src/images/mobile/B.jpg");
   }
 }
 @media screen and (min-width: 2560px) and (max-width: 8000px) {
@@ -1468,11 +1468,11 @@ main #inicio .promos {
   }
 }
 #quienessomos .profes-container .profes .profe3 {
-  background-image: url("./src/images/C.webp");
+  background-image: url("../src/images/C.webp");
   background-position-y: inherit;
 }
 #quienessomos .profes-container .profes .profe4 {
-  background-image: url("./src/images/D.webp");
+  background-image: url("../src/images/D.webp");
   background-position-y: inherit;
 }
 #quienessomos .profes-container .profes div img {
