@@ -927,13 +927,13 @@ main #inicio .promos {
 }
 #clases .clase-2 {
   justify-content: end;
-  background-image: url("./src/images/funcional.webp");
+  background-image: url("../src/images/funcional.webp");
   text-align: right;
   background-position-y: 36%;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #clases .clase-2 {
-    background-image: url("./src/images/mobile/funcional.jpg");
+    background-image: url("../src/images/mobile/funcional.jpg");
     justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.25);
