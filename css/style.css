@@ -1729,20 +1729,27 @@ main #contacto img {
   padding: 0 5px;
   margin: 10px 0;
   text-transform: uppercase;
-  background-color: #00d800;
-  border-color: #00d800;
+  background-color: #70D70C;
+  border-color: #70D70C;
   border-style: solid;
   border-radius: 10px;
   width: 33%;
   cursor: pointer;
-  color: white;
-  font-weight: bold;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 0.9em;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bolder;
   transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 .contact_form ul li button:hover {
   background-color: white;
-  color: #00d800;
-  border-color: #00d800;
+  border-color: white;
+  color: blacks;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   .contact_form ul li button {
