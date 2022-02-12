@@ -16,6 +16,11 @@
 .bg-verde {
     background: var(--verde);
 }
+.back-button:hover {
+    background-color: white;
+    text-shadow: 0 0 3px rgba(0,0,0,9%);
+}
+
 .bg-verde-imp {
     background-color: var(--verde) !important;
 }
@@ -51,6 +56,20 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-item:hover::after{
+    content:"Próximamente!";
+    background-color: black;
+    color: #70D70C;
+    padding: .1em .5em;
+    margin: 0 0.5em;
+    position: absolute;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
 }
 
 /* MEDIAQUERIES */
