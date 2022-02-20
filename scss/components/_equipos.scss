@@ -91,6 +91,13 @@
                 padding: 0 2%;
                 overflow: hidden;
             }
+
+            @include mqs(mm1, mm2) {
+                width: 45%;
+                height: 100%;
+                padding: 0 1em;
+                overflow: hidden;
+            }
         }
     }
 

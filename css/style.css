@@ -1109,6 +1109,14 @@ main #inicio .promos {
     overflow: hidden;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 570px) {
+  #equipos .equiposFlex .caja {
+    width: 45%;
+    height: 100%;
+    padding: 0 1em;
+    overflow: hidden;
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 320px) {
   #equipos {
     display: flex;
